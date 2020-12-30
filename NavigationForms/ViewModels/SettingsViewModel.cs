@@ -30,7 +30,7 @@ namespace NavigationForms.ViewModels
             
         }
 
-        private string text = "Settings!!!";
+        private string text = "Settings Page. Can modify the content view to go here.";
     }
 }
 

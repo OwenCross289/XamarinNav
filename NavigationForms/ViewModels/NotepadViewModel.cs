@@ -30,7 +30,7 @@ namespace NavigationForms.ViewModels
             
         }
 
-        private string text = "Notepad!!!";
+        private string text = "Notepad view. Can modify the content view to go here.";
     }
 }
 

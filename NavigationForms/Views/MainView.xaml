@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NavigationForms.Views.MainView"
              xmlns:local="clr-namespace:NavigationForms.Views"
-             xmlns:helper="clr-namespace:NavigationForms.Helpers">
+             xmlns:helper="clr-namespace:NavigationForms.Helpers"
+             Visual="Material">
 
     <ContentPage.Resources>
         <helper:TypeNameConverter x:Key="TypeNameConverter" />
@@ -12,15 +13,10 @@
     </ContentPage.Resources>
     
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="{Binding CurrentView, Converter={StaticResource TypeNameConverter}}"
+         <Label Text="{Binding CurrentView, Converter={StaticResource TypeNameConverter}}"
            HorizontalOptions="Center"
-           VerticalOptions="Start" />
-        <Button Text="Notepad"
-                Command="{Binding NavigateToHome}" />
-        <Button Text="Settings"
-                Command="{Binding NavigateToSettings}"/>
-
+           VerticalOptions="Start"
+           FontSize="Title"/>
         <!--This is where view selection is done!-->
         <ContentView x:Name="MyContentView" BindingContext="{Binding CurrentView}"
                      Margin="12"
@@ -43,5 +39,16 @@
                 </DataTrigger>
             </ContentView.Triggers>
         </ContentView>
+
+        <!-- Place navigation controls here -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Margin="5">
+            <Button Text="Notepad"
+                Command="{Binding NavigateToHome}" />
+            <Button Text="Settings"
+                Command="{Binding NavigateToSettings}"/>
+             <Button Text="Doesn't work1"
+                Command="{Binding NavigateToSettings}"/>  
+        </StackLayout>
+        
     </StackLayout>
 </ContentPage>
