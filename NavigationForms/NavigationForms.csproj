@@ -22,5 +22,12 @@
     <Folder Include="Models\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Fonts\typicons.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\typicons.ttf" />
   </ItemGroup>
 </Project>

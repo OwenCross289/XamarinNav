@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
 
 namespace NavigationForms.iOS
 {
@@ -26,7 +28,18 @@ namespace NavigationForms.iOS
             global::Xamarin.Forms.FormsMaterial.Init();
             LoadApplication(new App());
 
+           
+            
             return base.FinishedLaunching(app, options);
+        }
+
+        UIViewController GetCurrentViewController()
+        {
+            var window = UIApplication.SharedApplication.KeyWindow;
+            var vc = window.RootViewController;
+            while (vc.PresentedViewController != null)
+                vc = vc.PresentedViewController;
+            return vc;
         }
     }
 }

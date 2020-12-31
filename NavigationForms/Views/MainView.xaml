@@ -2,55 +2,111 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="NavigationForms.Views.MainView"
-             ios:Page.UseSafeArea="true"
+             
+             Visual="Material"
              xmlns:local="clr-namespace:NavigationForms.Views"
-             xmlns:helper="clr-namespace:NavigationForms.Helpers"
-             Visual="Material">
-
+             xmlns:helper="clr-namespace:NavigationForms.Helpers">
     <ContentPage.Resources>
         <helper:TypeNameConverter x:Key="TypeNameConverter" />
         <local:NotepadView x:Key="NotepadView" />
         <local:SettingsView x:Key="SettingsView" />
     </ContentPage.Resources>
-    
-    <StackLayout>
-         <Label Text="{Binding CurrentView, Converter={StaticResource TypeNameConverter}}"
-           HorizontalOptions="Center"
-           VerticalOptions="Start"
-           FontSize="Title"/>
-        <!--This is where view selection is done!-->
-        <ContentView x:Name="MyContentView" BindingContext="{Binding CurrentView}"
-                     Margin="12"
-                     VerticalOptions="FillAndExpand">
-            <ContentView.Content>
-                <ContentView BindingContext="{Binding CurrentView}"/>
-            </ContentView.Content>
-            <ContentView.Triggers>
-                <DataTrigger TargetType="{x:Type ContentView}"
-                             Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
-                             Value="NotepadViewModel">
-                    <Setter Property="Content"
-                            Value="{StaticResource NotepadView}" />
-                </DataTrigger>
-                <DataTrigger TargetType="{x:Type ContentView}"
-                             Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
-                             Value="SettingsViewModel">
-                   <Setter Property="Content"
-                           Value="{StaticResource SettingsView}" />
-                </DataTrigger>
-            </ContentView.Triggers>
-        </ContentView>
 
-        <!-- Place navigation controls here -->
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Margin="5">
-            <Button Text="Notepad"
-                Command="{Binding NavigateToHome}" />
-            <Button Text="Settings"
-                Command="{Binding NavigateToSettings}"/>
-             <Button Text="Doesn't work1"
-                Command="{Binding NavigateToSettings}"/>  
+    <NavigationPage.TitleView>
+         <Grid BackgroundColor="#fd7b38" ColumnDefinitions="1*,5*,1*">
+                <Button Clicked="OnLeftButtonClicked"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Visual="Default">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.HamburgerFilled}"
+                                         Color="White"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+                <Label Grid.Column="1"
+                       Text="{Binding CurrentView, Converter={StaticResource TypeNameConverter}}"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="Title"
+                       TextColor="White"/>
+            </Grid>
+    </NavigationPage.TitleView>
+
+     <xct:SideMenuView x:Name="SideMenuView">
+        <!-- MainView -->
+        <StackLayout Orientation="Vertical" BackgroundColor="White">
+            
+            <!--This is where view selection is done!-->
+            <ContentView x:Name="MyContentView"
+                         BindingContext="{Binding CurrentView}"
+                         Margin="12"
+                         VerticalOptions="FillAndExpand">
+                <ContentView.Content>
+                    <ContentView BindingContext="{Binding CurrentView}"/>
+                </ContentView.Content>
+                <ContentView.Triggers>
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="NotepadViewModel">
+                        <Setter Property="Content" Value="{StaticResource NotepadView}" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="SettingsViewModel">
+                        <Setter Property="Content" Value="{StaticResource SettingsView}" />
+                    </DataTrigger>
+                </ContentView.Triggers>
+            </ContentView>       
         </StackLayout>
-        
-    </StackLayout>
+
+        <!-- LeftMenu -->
+        <StackLayout
+            BackgroundColor="#bababa"
+            xct:SideMenuView.Position="LeftMenu"
+            xct:SideMenuView.MenuWidthPercentage=".5">
+            <!-- Place navigation controls here -->
+           <StackLayout>
+                <Button Command="{Binding NavigateToHome}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="Start"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="Notepad"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.Note}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+
+                <Button Command="{Binding NavigateToSettings}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="Settings"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.SettingsFill}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+            </StackLayout>
+         </StackLayout>
+    </xct:SideMenuView>
 </ContentPage>

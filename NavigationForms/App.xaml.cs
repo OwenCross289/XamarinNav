@@ -10,10 +10,16 @@ namespace NavigationForms
         {
             InitializeComponent();
             var x = new MainViewModel();
-            MainPage = new MainView
+            var view = new MainView
             {
                 BindingContext = x
             };
+            MainPage = new NavigationPage(view)
+            { 
+                BarBackgroundColor = Color.FromHex("#fd7b38"),
+                BarTextColor = Color.White
+            };
+           
         }
 
         protected override void OnStart()
