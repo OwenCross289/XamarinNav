@@ -4,7 +4,7 @@
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="NavigationForms.Views.MainView"
-             
+             xmlns:animations="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
              Visual="Material"
              xmlns:local="clr-namespace:NavigationForms.Views"
              xmlns:helper="clr-namespace:NavigationForms.Helpers">
@@ -106,6 +106,15 @@
                                          Size="Title"/>
                     </Button.ImageSource>
                 </Button>
+
+               <animations:AnimationView x:Name="animationView"
+                                         Animation="resource://Resources.42504-blocks.json?assembly=NavigationForms"
+                                         AnimationSource="EmbeddedResource"
+                                         AutoPlay="True"
+                                         RepeatMode="Restart"
+                                         VerticalOptions="FillAndExpand"
+                                         RepeatCount="3"
+                                         HorizontalOptions="FillAndExpand" />
             </StackLayout>
          </StackLayout>
     </xct:SideMenuView>

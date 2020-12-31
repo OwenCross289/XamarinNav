@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NavigationForms.Views.SettingsView">
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationForms.Views.SettingsView"
+              xmlns:animations="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
     <ContentView.Content>
-        <Label Text="{Binding Text}"/>
+         <StackLayout>
+            <Label Text="{Binding Text}" />
+            <animations:AnimationView x:Name="animationView"
+                                         Animation="resource://Resources.42631-mechanical-engineering-setting.json?assembly=NavigationForms"
+                                         AnimationSource="EmbeddedResource"
+                                         AutoPlay="True"
+                                         BackgroundColor="Transparent"
+                                         RepeatMode="Infinite"
+                                         VerticalOptions="FillAndExpand"
+                                         HorizontalOptions="FillAndExpand" />
+        </StackLayout>
     </ContentView.Content>
 </ContentView>

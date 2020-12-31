@@ -15,6 +15,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0-pre6" />
     <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.1829-pre6" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.8" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
@@ -23,11 +24,16 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Helpers\" />
     <Folder Include="Fonts\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Fonts\typicons.ttf" />
+    <None Remove="Resources\42504-blocks.json" />
+    <None Remove="Resources\42631-mechanical-engineering-setting.json" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Fonts\typicons.ttf" />
+    <EmbeddedResource Include="Resources\42504-blocks.json" />
+    <EmbeddedResource Include="Resources\42631-mechanical-engineering-setting.json" />
   </ItemGroup>
 </Project>
