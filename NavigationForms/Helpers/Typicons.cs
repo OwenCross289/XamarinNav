@@ -227,7 +227,7 @@
 		public const string Glyph221 = "\ue0dd";
 		public const string Glyph222 = "\ue0de";
 		public const string Glyph223 = "\ue0df";
-		public const string Glyph224 = "\ue0e0";
+		public const string ShoppingTrolley = "\ue0e0";
 		public const string Glyph225 = "\ue0e1";
 		public const string Glyph226 = "\ue0e2";
 		public const string Glyph227 = "\ue0e3";

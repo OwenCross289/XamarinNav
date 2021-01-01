@@ -4,7 +4,7 @@ using NavigationForms.Interfaces;
 
 namespace NavigationForms.ViewModels
 {
-    public class DataVisualiserViewModel : OnPropertyChangedImplementation, INavigatable
+    public class AdvertisementViewModel : OnPropertyChangedImplementation, INavigatable
     {
         public string Text
         {
@@ -15,9 +15,9 @@ namespace NavigationForms.ViewModels
             }
         }
 
-        public string Title { get; } = "Visuliser";
+        public string Title { get; } = "Advertsing";
 
-        public DataVisualiserViewModel()
+        public AdvertisementViewModel()
         {
         }
 
@@ -31,7 +31,6 @@ namespace NavigationForms.ViewModels
             
         }
 
-        private string text = "";
+        private string text = "ADVERTS!";
     }
 }
-

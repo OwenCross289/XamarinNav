@@ -8,59 +8,87 @@ namespace NavigationForms.ViewModels
 {
    public class MainViewModel : OnPropertyChangedImplementation
    {
-      private TestingGroundFactory Factory { get; set; } = new TestingGroundFactory();
+        private TestingGroundFactory Factory { get; set; } = new TestingGroundFactory();
 
-      public INavigatable CurrentView
-      {
-         get { return currentView; }
-         set
-         {
-            currentView = value;
-            OnPropertyChanged();
-         }
-      }
+        public INavigatable CurrentView
+        {
+            get { return currentView; }
+            set
+            {
+                currentView = value;
+                OnPropertyChanged();
+            }
+        }
 
-      public MainViewModel()
-      {
-          CurrentView = Factory.CreateNotepadVM();
-      }
+        public string CurrentViewTitle
+        {
+            get { return currentViewTitle; }
+            set
+            {
+                currentViewTitle = value;
+                OnPropertyChanged();
+            }
+        }
 
-      public ICommand NavigateToVisualiser
-      {
-         get { return new Command(() => VisualiserNavigate()); }
-      }
+        public MainViewModel()
+        {
+            CurrentView = Factory.CreateNotepadVM();
+            CurrentViewTitle = Factory.Title;
+        }
 
-      public ICommand NavigateToHome
-      {
-         get { return new Command(() => HomeNavigate()); }
-      }
+        public ICommand NavigateToVisualiser
+        {
+            get { return new Command(() => VisualiserNavigate()); }
+        }
 
-      public ICommand NavigateToSettings
-      {
-         get { return new Command(() => SettingsNavigate()); }
-      }
+        public ICommand NavigateToHome
+        {
+            get { return new Command(() => HomeNavigate()); }
+        }
 
-      public void SettingsNavigate()
-      {
-         CurrentView.OnNavigateAway();
-         CurrentView = Factory.CreateSettingsVM();
-         CurrentView.OnNavigateTo();
-      }
+        public ICommand NavigateToSettings
+        {
+            get { return new Command(() => SettingsNavigate()); }
+        }
+
+        public ICommand NavigateToAdvertisement
+        {
+            get { return new Command(() => AdvertisementNavigate()); }
+        }
+
+        public void SettingsNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = Factory.CreateSettingsVM();
+            CurrentViewTitle = Factory.Title;
+            CurrentView.OnNavigateTo();
+        }
 
         public void HomeNavigate()
-      {
-         CurrentView.OnNavigateAway();
-         CurrentView = Factory.CreateNotepadVM();
-         CurrentView.OnNavigateTo();
-      }
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = Factory.CreateNotepadVM();
+            CurrentViewTitle = Factory.Title;
+            CurrentView.OnNavigateTo();
+        }
 
-      public void VisualiserNavigate()
-      {
-         CurrentView.OnNavigateAway();
-         CurrentView = Factory.CreateDataVisualiserVM();
-         CurrentView.OnNavigateTo();
-      }
+        public void VisualiserNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = Factory.CreateDataVisualiserVM();
+            CurrentViewTitle = Factory.Title;
+            CurrentView.OnNavigateTo();
+        }
 
-      private INavigatable currentView;
+        public void AdvertisementNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = Factory.GetAdvertisementVM();
+            CurrentViewTitle = Factory.Title;
+            CurrentView.OnNavigateTo();
+        }
+
+        private INavigatable currentView;
+        public string currentViewTitle = "";
    }
 }

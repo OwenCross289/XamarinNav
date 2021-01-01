@@ -15,9 +15,10 @@ namespace NavigationForms.ViewModels
             }
         }
 
+        public string Title { get; } = "Settings";
+
         public SettingsViewModel()
         {
-            
         }
 
         public void OnNavigateAway()

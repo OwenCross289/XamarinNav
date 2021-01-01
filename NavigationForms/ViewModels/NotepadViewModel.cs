@@ -15,9 +15,10 @@ namespace NavigationForms.ViewModels
             }
         }
 
+        public string Title { get; } = "Notepad";
+
         public NotepadViewModel()
         {
-            
         }
 
         public void OnNavigateAway()

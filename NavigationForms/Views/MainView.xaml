@@ -12,6 +12,7 @@
         <helper:TypeNameConverter x:Key="TypeNameConverter" />
         <local:NotepadView x:Key="NotepadView" />
         <local:SettingsView x:Key="SettingsView" />
+        <local:AdvertisementView x:Key="AdvertisementView" />
     </ContentPage.Resources>
 
     <NavigationPage.TitleView>
@@ -29,7 +30,7 @@
                     </Button.ImageSource>
                 </Button>
                 <Label Grid.Column="1"
-                       Text="{Binding CurrentView, Converter={StaticResource TypeNameConverter}}"
+                       Text="{Binding CurrentViewTitle}"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
                        FontSize="Title"
@@ -60,6 +61,11 @@
                                  Value="SettingsViewModel">
                         <Setter Property="Content" Value="{StaticResource SettingsView}" />
                     </DataTrigger>
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="AdvertisementViewModel">
+                        <Setter Property="Content" Value="{StaticResource AdvertisementView}" />
+                    </DataTrigger>
                 </ContentView.Triggers>
             </ContentView>       
         </StackLayout>
@@ -89,6 +95,24 @@
                     </Button.ImageSource>
                 </Button>
 
+               <Button Command="{Binding NavigateToAdvertisement}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="Advertisement"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.ShoppingTrolley}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+
                 <Button Command="{Binding NavigateToSettings}"
                         Visual="Default"
                         Margin="5,0,0,0"
@@ -107,14 +131,6 @@
                     </Button.ImageSource>
                 </Button>
 
-               <animations:AnimationView x:Name="animationView"
-                                         Animation="resource://Resources.42504-blocks.json?assembly=NavigationForms"
-                                         AnimationSource="EmbeddedResource"
-                                         AutoPlay="True"
-                                         RepeatMode="Restart"
-                                         VerticalOptions="FillAndExpand"
-                                         RepeatCount="3"
-                                         HorizontalOptions="FillAndExpand" />
             </StackLayout>
          </StackLayout>
     </xct:SideMenuView>
