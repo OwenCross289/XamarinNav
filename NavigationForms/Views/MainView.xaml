@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="NavigationForms.Views.MainView"
-             xmlns:animations="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
-             Visual="Material"
              xmlns:local="clr-namespace:NavigationForms.Views"
              xmlns:helper="clr-namespace:NavigationForms.Helpers">
     <ContentPage.Resources>
@@ -16,36 +13,35 @@
     </ContentPage.Resources>
 
     <NavigationPage.TitleView>
-         <Grid BackgroundColor="#fd7b38" ColumnDefinitions="1*,5*,1*">
-                <Button Clicked="OnLeftButtonClicked"
-                        HorizontalOptions="CenterAndExpand"
-                        BackgroundColor="Transparent"
-                        BorderColor="Transparent"
-                        Visual="Default">
-                    <Button.ImageSource>
-                        <FontImageSource FontFamily="Typicons"
-                                         Glyph="{x:Static helper:Typicons.HamburgerFilled}"
-                                         Color="White"
-                                         Size="Title"/>
-                    </Button.ImageSource>
-                </Button>
-                <Label Grid.Column="1"
-                       Text="{Binding CurrentViewTitle}"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center"
-                       FontSize="Title"
-                       TextColor="White"/>
-            </Grid>
+        <Grid BackgroundColor="#fd7b38" >
+            <ImageButton Clicked="OnLeftButtonClicked"
+                    HorizontalOptions="Start"
+                    Margin="0"
+                    Padding="0"
+                    BorderColor="Transparent"
+                    BackgroundColor="Transparent">
+                <ImageButton.Source>
+                    <FontImageSource FontFamily="Typicons"
+                                     Glyph="{x:Static helper:Typicons.HamburgerFilled}"
+                                     Color="White"
+                                     Size="Title"/>
+                </ImageButton.Source>
+            </ImageButton>
+            <Label Text="{Binding CurrentViewTitle}"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   FontSize="Title"
+                   TextColor="White"/>
+        </Grid>
     </NavigationPage.TitleView>
 
-     <xct:SideMenuView x:Name="SideMenuView">
+    <xct:SideMenuView x:Name="SideMenuView">
         <!-- MainView -->
         <StackLayout Orientation="Vertical" BackgroundColor="White">
-            
+
             <!--This is where view selection is done!-->
             <ContentView x:Name="MyContentView"
                          BindingContext="{Binding CurrentView}"
-                         Margin="12"
                          VerticalOptions="FillAndExpand">
                 <ContentView.Content>
                     <ContentView BindingContext="{Binding CurrentView}"/>
@@ -67,7 +63,7 @@
                         <Setter Property="Content" Value="{StaticResource AdvertisementView}" />
                     </DataTrigger>
                 </ContentView.Triggers>
-            </ContentView>       
+            </ContentView>
         </StackLayout>
 
         <!-- LeftMenu -->
@@ -76,7 +72,7 @@
             xct:SideMenuView.Position="LeftMenu"
             xct:SideMenuView.MenuWidthPercentage=".5">
             <!-- Place navigation controls here -->
-           <StackLayout>
+            <StackLayout>
                 <Button Command="{Binding NavigateToHome}"
                         Visual="Default"
                         Margin="5,0,0,0"
@@ -95,8 +91,7 @@
                     </Button.ImageSource>
                 </Button>
 
-               <Button Command="{Binding NavigateToAdvertisement}"
-                        Visual="Default"
+                <Button Command="{Binding NavigateToAdvertisement}"
                         Margin="5,0,0,0"
                         HorizontalOptions="StartAndExpand"
                         BackgroundColor="Transparent"
@@ -132,6 +127,6 @@
                 </Button>
 
             </StackLayout>
-         </StackLayout>
+        </StackLayout>
     </xct:SideMenuView>
 </ContentPage>

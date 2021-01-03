@@ -9,10 +9,12 @@ namespace NavigationForms
         public App()
         {
             InitializeComponent();
-            var x = new MainViewModel();
+            Sharpnado.Shades.Initializer.Initialize(loggerEnable: false);
+
+            var mainViewModel = new MainViewModel();
             var view = new MainView
             {
-                BindingContext = x
+                BindingContext = mainViewModel
             };
             MainPage = new NavigationPage(view)
             { 
