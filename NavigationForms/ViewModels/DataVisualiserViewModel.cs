@@ -11,11 +11,10 @@ namespace NavigationForms.ViewModels
             get { return text; }
             set
             {
+                text = value;
                 OnPropertyChanged();
             }
         }
-
-        public string Title { get; } = "Visuliser";
 
         public DataVisualiserViewModel()
         {
@@ -23,12 +22,12 @@ namespace NavigationForms.ViewModels
 
         public void OnNavigateAway()
         {
-            
+
         }
 
         public void OnNavigateTo()
         {
-            
+
         }
 
         private string text = "";

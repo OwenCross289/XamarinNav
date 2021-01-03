@@ -10,6 +10,7 @@
         <local:NotepadView x:Key="NotepadView" />
         <local:SettingsView x:Key="SettingsView" />
         <local:AdvertisementView x:Key="AdvertisementView" />
+        <local:DependencyServicesDemoView x:Key="DependencyServicesDemoView" />
     </ContentPage.Resources>
 
     <NavigationPage.TitleView>
@@ -61,6 +62,11 @@
                                  Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
                                  Value="AdvertisementViewModel">
                         <Setter Property="Content" Value="{StaticResource AdvertisementView}" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="DependencyServicesDemoViewModel">
+                        <Setter Property="Content" Value="{StaticResource DependencyServicesDemoView}" />
                     </DataTrigger>
                 </ContentView.Triggers>
             </ContentView>
@@ -121,6 +127,24 @@
                     <Button.ImageSource>
                         <FontImageSource FontFamily="Typicons"
                                          Glyph="{x:Static helper:Typicons.SettingsFill}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+
+                <Button Command="{Binding NavigateToDependencyServicesDemo}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="DS Demo"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.Glyph12}"
                                          Color="Black"
                                          Size="Title"/>
                     </Button.ImageSource>

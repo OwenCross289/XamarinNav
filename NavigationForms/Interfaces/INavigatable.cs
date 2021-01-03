@@ -2,8 +2,8 @@
 {
     public interface INavigatable
     {
-      void OnNavigateTo();
+        void OnNavigateTo();
 
-      void OnNavigateAway();
+        void OnNavigateAway();
     }
 }

@@ -6,9 +6,9 @@ using Xamarin.Forms;
 
 namespace NavigationForms.ViewModels
 {
-   public class MainViewModel : OnPropertyChangedImplementation
-   {
-        private TestingGroundFactory Factory { get; set; } = new TestingGroundFactory();
+    public class MainViewModel : OnPropertyChangedImplementation
+    {
+        private TestingGroundFactory NotFactory { get; set; } = new TestingGroundFactory();
 
         public INavigatable CurrentView
         {
@@ -32,8 +32,9 @@ namespace NavigationForms.ViewModels
 
         public MainViewModel()
         {
-            CurrentView = Factory.CreateNotepadVM();
-            CurrentViewTitle = Factory.Title;
+            CurrentView = NotFactory.CreateNotepadVM();
+            CurrentView.OnNavigateTo();
+            CurrentViewTitle = "Notepad";
         }
 
         public ICommand NavigateToVisualiser
@@ -56,39 +57,52 @@ namespace NavigationForms.ViewModels
             get { return new Command(() => AdvertisementNavigate()); }
         }
 
+        public ICommand NavigateToDependencyServicesDemo
+        {
+            get { return new Command(() => DependencyServicesDemoNavigate()); }
+        }
+
+        public void DependencyServicesDemoNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = NotFactory.GetDependencyServicesVM();
+            CurrentViewTitle = "Dependency Service";
+            CurrentView.OnNavigateTo();
+        }
+
         public void SettingsNavigate()
         {
             CurrentView.OnNavigateAway();
-            CurrentView = Factory.CreateSettingsVM();
-            CurrentViewTitle = Factory.Title;
+            CurrentView = NotFactory.CreateSettingsVM();
+            CurrentViewTitle = "Settings";
             CurrentView.OnNavigateTo();
         }
 
         public void HomeNavigate()
         {
             CurrentView.OnNavigateAway();
-            CurrentView = Factory.CreateNotepadVM();
-            CurrentViewTitle = Factory.Title;
+            CurrentView = NotFactory.CreateNotepadVM();
+            CurrentViewTitle = "Notepad";
             CurrentView.OnNavigateTo();
         }
 
         public void VisualiserNavigate()
         {
             CurrentView.OnNavigateAway();
-            CurrentView = Factory.CreateDataVisualiserVM();
-            CurrentViewTitle = Factory.Title;
+            CurrentView = NotFactory.CreateDataVisualiserVM();
+            CurrentViewTitle = "Visualiser";
             CurrentView.OnNavigateTo();
         }
 
         public void AdvertisementNavigate()
         {
             CurrentView.OnNavigateAway();
-            CurrentView = Factory.GetAdvertisementVM();
-            CurrentViewTitle = Factory.Title;
+            CurrentView = NotFactory.GetAdvertisementVM();
+            CurrentViewTitle = "Advertising";
             CurrentView.OnNavigateTo();
         }
 
         private INavigatable currentView;
-        public string currentViewTitle = "";
-   }
+        private string currentViewTitle;
+    }
 }

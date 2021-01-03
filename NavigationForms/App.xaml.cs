@@ -1,6 +1,7 @@
 ﻿using NavigationForms.Views;
 using NavigationForms.ViewModels;
 using Xamarin.Forms;
+using NavigationForms.Services;
 
 namespace NavigationForms
 {
@@ -17,11 +18,11 @@ namespace NavigationForms
                 BindingContext = mainViewModel
             };
             MainPage = new NavigationPage(view)
-            { 
+            {
                 BarBackgroundColor = Color.FromHex("#fd7b38"),
                 BarTextColor = Color.White
             };
-           
+
         }
 
         protected override void OnStart()

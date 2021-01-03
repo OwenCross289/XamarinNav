@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using NavigationForms.Helper;
 using NavigationForms.Interfaces;
 using NavigationForms.Models;
@@ -14,11 +12,10 @@ namespace NavigationForms.ViewModels
             get { return text; }
             set
             {
+                text = value;
                 OnPropertyChanged();
             }
         }
-
-        public string Title { get; } = "Advertsing";
 
         public ObservableCollection<Advert> Adverts { get; private set; }
 
@@ -56,7 +53,7 @@ namespace NavigationForms.ViewModels
 
             Advert m1MacBookAdvert = new Advert
             {
-                Name = "Apple m1 MacBook",
+                Name = "Apple M1 MacBook",
                 ImageUrl = "https://www.domusweb.it/content/dam/domusweb/en/news/2020/11/11/apple-m1-chip-6-reasons-why-its-gonna-change-your-mac-forever/Apple-m1-chips-1.jpg.foto.rbig.jpg",
                 Details = "The latest inovation in mobile computing",
                 Location = "Sunny San Diago"
@@ -80,6 +77,6 @@ namespace NavigationForms.ViewModels
 
         }
 
-        private string text = "ADVERTS!";
+        private string text = "Adverts";
     }
 }
