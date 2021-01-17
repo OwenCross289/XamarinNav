@@ -3,14 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="NavigationForms.Views.MainView"
-             xmlns:local="clr-namespace:NavigationForms.Views"
+             xmlns:views="clr-namespace:NavigationForms.Views"
              xmlns:helper="clr-namespace:NavigationForms.Helpers">
     <ContentPage.Resources>
         <helper:TypeNameConverter x:Key="TypeNameConverter" />
-        <local:NotepadView x:Key="NotepadView" />
-        <local:SettingsView x:Key="SettingsView" />
-        <local:AdvertisementView x:Key="AdvertisementView" />
-        <local:DependencyServicesDemoView x:Key="DependencyServicesDemoView" />
+        <views:NotepadView x:Key="NotepadView" />
+        <views:SettingsView x:Key="SettingsView" />
+        <views:AdvertisementView x:Key="AdvertisementView" />
+        <views:DependencyServicesDemoView x:Key="DependencyServicesDemoView" />
+        <views:DataVisualizerView x:Key="DataVisualizerView" />
     </ContentPage.Resources>
 
     <NavigationPage.TitleView>
@@ -67,6 +68,11 @@
                                  Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
                                  Value="DependencyServicesDemoViewModel">
                         <Setter Property="Content" Value="{StaticResource DependencyServicesDemoView}" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="DataVisualiserViewModel">
+                        <Setter Property="Content" Value="{StaticResource DataVisualizerView}" />
                     </DataTrigger>
                 </ContentView.Triggers>
             </ContentView>
@@ -145,6 +151,24 @@
                     <Button.ImageSource>
                         <FontImageSource FontFamily="Typicons"
                                          Glyph="{x:Static helper:Typicons.Glyph12}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+
+                <Button Command="{Binding NavigateToDataVisualizer}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="Graphs"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.Glyph88}"
                                          Color="Black"
                                          Size="Title"/>
                     </Button.ImageSource>

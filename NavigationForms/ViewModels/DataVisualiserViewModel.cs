@@ -30,7 +30,7 @@ namespace NavigationForms.ViewModels
 
         }
 
-        private string text = "";
+        private string text = "Graphs go here";
     }
 }
 

@@ -17,20 +17,14 @@ namespace NavigationForms.Model
 
         private DependencyServicesDemoViewModel DependencyServices { get; set; }
 
-        public string Title { get; set; }
+        public TestingGroundFactory() { }
 
-        public TestingGroundFactory()
-        {
-        }
-
-        public NotepadViewModel CreateNotepadVM()
+        public NotepadViewModel GetNotepadVM()
         {
             if (Notepad == null)
             {
                 Notepad = new NotepadViewModel();
             }
-
-            Title = "Notepad";
 
             return Notepad;
         }
@@ -42,30 +36,25 @@ namespace NavigationForms.Model
                 DependencyServices = new DependencyServicesDemoViewModel();
             }
 
-            Title = "Dependency Services";
-
             return DependencyServices;
         }
 
-
-        public DataVisualiserViewModel CreateDataVisualiserVM()
+        public DataVisualiserViewModel GetDataVisulizerVM()
         {
             if (DataVisualiser == null)
             {
                 DataVisualiser = new DataVisualiserViewModel();
             }
-            Title = "Data Visualiser";
 
             return DataVisualiser;
         }
 
-        public SettingsViewModel CreateSettingsVM()
+        public SettingsViewModel GetSettingsVM()
         {
             if (Settings == null)
             {
                 Settings = new SettingsViewModel();
             }
-            Title = "Settings";
 
             return Settings;
         }
@@ -76,7 +65,6 @@ namespace NavigationForms.Model
             {
                 Advertisement = new AdvertisementViewModel();
             }
-            Title = "Adveertising";
 
             return Advertisement;
         }
