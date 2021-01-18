@@ -24,6 +24,7 @@ namespace NavigationForms.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             Forms.Init();
+            OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.Init();
             FormsMaterial.Init();
             Sharpnado.Shades.iOS.iOSShadowsRenderer.Initialize();
             LoadApplication(new App());

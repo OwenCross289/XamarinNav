@@ -21,6 +21,7 @@ namespace NavigationForms.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.Init();
             Xamarin.Forms.FormsMaterial.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
