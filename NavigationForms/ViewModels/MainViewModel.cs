@@ -32,7 +32,7 @@ namespace NavigationForms.ViewModels
 
         public MainViewModel()
         {
-            CurrentView = NotFactory.CreateNotepadVM();
+            CurrentView = NotFactory.GetNotepadVM();
             CurrentView.OnNavigateTo();
             CurrentViewTitle = "Notepad";
         }
@@ -62,6 +62,11 @@ namespace NavigationForms.ViewModels
             get { return new Command(() => DependencyServicesDemoNavigate()); }
         }
 
+        public ICommand NavigateToDataVisualizer
+        {
+            get { return new Command(() => DataVisualizerNavigate()); }
+        }
+
         public void DependencyServicesDemoNavigate()
         {
             CurrentView.OnNavigateAway();
@@ -73,7 +78,7 @@ namespace NavigationForms.ViewModels
         public void SettingsNavigate()
         {
             CurrentView.OnNavigateAway();
-            CurrentView = NotFactory.CreateSettingsVM();
+            CurrentView = NotFactory.GetSettingsVM();
             CurrentViewTitle = "Settings";
             CurrentView.OnNavigateTo();
         }
@@ -81,7 +86,7 @@ namespace NavigationForms.ViewModels
         public void HomeNavigate()
         {
             CurrentView.OnNavigateAway();
-            CurrentView = NotFactory.CreateNotepadVM();
+            CurrentView = NotFactory.GetNotepadVM();
             CurrentViewTitle = "Notepad";
             CurrentView.OnNavigateTo();
         }
@@ -89,7 +94,7 @@ namespace NavigationForms.ViewModels
         public void VisualiserNavigate()
         {
             CurrentView.OnNavigateAway();
-            CurrentView = NotFactory.CreateDataVisualiserVM();
+            CurrentView = NotFactory.GetDataVisulizerVM();
             CurrentViewTitle = "Visualiser";
             CurrentView.OnNavigateTo();
         }
@@ -99,6 +104,14 @@ namespace NavigationForms.ViewModels
             CurrentView.OnNavigateAway();
             CurrentView = NotFactory.GetAdvertisementVM();
             CurrentViewTitle = "Advertising";
+            CurrentView.OnNavigateTo();
+        }
+
+        public void DataVisualizerNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = NotFactory.GetDataVisulizerVM();
+            CurrentViewTitle = "Graphs";
             CurrentView.OnNavigateTo();
         }
 
