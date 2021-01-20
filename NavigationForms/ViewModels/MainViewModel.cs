@@ -8,7 +8,7 @@ namespace NavigationForms.ViewModels
 {
     public class MainViewModel : OnPropertyChangedImplementation
     {
-        private TestingGroundFactory NotFactory { get; set; } = new TestingGroundFactory();
+        private TestingGroundFactory NotFactory { get; } = new TestingGroundFactory();
 
         public INavigatable CurrentView
         {
@@ -34,7 +34,7 @@ namespace NavigationForms.ViewModels
         {
             CurrentView = NotFactory.GetNotepadVM();
             CurrentView.OnNavigateTo();
-            CurrentViewTitle = "Notepad";
+            CurrentViewTitle = "Lottie Animations";
         }
 
         public ICommand NavigateToVisualiser
@@ -67,6 +67,11 @@ namespace NavigationForms.ViewModels
             get { return new Command(() => DataVisualizerNavigate()); }
         }
 
+        public ICommand NavigateToCustomRender
+        {
+            get { return new Command(() => CustomRenderNavigate()); }
+        }
+
         public void DependencyServicesDemoNavigate()
         {
             CurrentView.OnNavigateAway();
@@ -87,7 +92,7 @@ namespace NavigationForms.ViewModels
         {
             CurrentView.OnNavigateAway();
             CurrentView = NotFactory.GetNotepadVM();
-            CurrentViewTitle = "Notepad";
+            CurrentViewTitle = "Lottie Animations";
             CurrentView.OnNavigateTo();
         }
 
@@ -112,6 +117,14 @@ namespace NavigationForms.ViewModels
             CurrentView.OnNavigateAway();
             CurrentView = NotFactory.GetDataVisulizerVM();
             CurrentViewTitle = "Graphs";
+            CurrentView.OnNavigateTo();
+        }
+
+        public void CustomRenderNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = NotFactory.GetCustomRenderVM();
+            CurrentViewTitle = "Custom Render Demo";
             CurrentView.OnNavigateTo();
         }
 

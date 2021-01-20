@@ -17,6 +17,8 @@ namespace NavigationForms.Model
 
         private DependencyServicesDemoViewModel DependencyServices { get; set; }
 
+        private CustomRenderViewModel CustomRender { get; set; }
+
         public TestingGroundFactory() { }
 
         public NotepadViewModel GetNotepadVM()
@@ -67,6 +69,16 @@ namespace NavigationForms.Model
             }
 
             return Advertisement;
+        }
+
+        public CustomRenderViewModel GetCustomRenderVM()
+        {
+            if (CustomRender == null)
+            {
+                CustomRender = new CustomRenderViewModel();
+            }
+
+            return CustomRender;
         }
     }
 }
