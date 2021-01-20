@@ -180,14 +180,13 @@
                     </Button.ImageSource>
                 </Button>
 
-
                 <Button Command="{Binding NavigateToCustomRender}"
                         Visual="Default"
                         Margin="5,0,0,0"
                         HorizontalOptions="StartAndExpand"
                         BackgroundColor="Transparent"
                         BorderColor="Transparent"
-                        Text="Custom Render"
+                        Text="Renderers"
                         TextColor="Black"
                         FontSize="Medium"
                         Clicked="CloseLeftMenu">

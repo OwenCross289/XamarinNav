@@ -21,11 +21,13 @@ namespace NavigationForms.Droid.CustomRenders
 
             if (Control != null)
             {
+                Control.TextSize = 20;
                 Control.SetBackgroundColor(global::Android.Graphics.Color.Black);
                 Control.Gravity = Android.Views.GravityFlags.Center;
                 Control.SetTextColor(Android.Graphics.Color.Magenta);
                 var papyrus = Typeface.CreateFromAsset(Context.Assets, "fonts/papyrus.ttf");
                 Control.SetTypeface(papyrus, TypefaceStyle.Normal);
+                Control.SetPadding(0, 0, 0, 0);
             }
         }
     }
