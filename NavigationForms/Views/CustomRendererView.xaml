@@ -1,22 +1,85 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:NavigationForms.Skia"
              x:Class="NavigationForms.Views.CustomRendererView"
              xmlns:controls="clr-namespace:NavigationForms.CustomRenders">
     <ContentView.Content>
-        <StackLayout>
-            <Label Text="This is the default platform label"/>
-            <controls:DemoLabelRender Text="This is my custom label" TextColor="AliceBlue"/>
-            <Button Text="Submit Order" CornerRadius="5" TextColor="White">
-                <Button.Background>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                        <GradientStop Color="Black" Offset="0" />
-                        <GradientStop Color="Gray" Offset="1" />
-                    </LinearGradientBrush>
-                </Button.Background>
-            </Button>
-            <Switch IsVisible="true" IsToggled="True" IsEnabled="False" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="3*" />
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0">
+                <Label Text="This is the default platform label"/>
+                <controls:DemoLabelRender Text="This is my custom label" TextColor="AliceBlue"/>
+                <Button Text="Submit Order" CornerRadius="5" TextColor="White">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                            <GradientStop Color="Black" Offset="0" />
+                            <GradientStop Color="Gray" Offset="1" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Switch IsVisible="true" IsToggled="True" IsEnabled="False" />
+            </StackLayout>
+
+            <Grid Grid.Row="1" Padding="8">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <skia:CircularProgress x:Name="Progress1"
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand"
+                                EndingDegrees="{Binding RedValue}"
+                                ProgressColor="#FF367E"
+                                ProgressThickness="24"
+                                StartingDegrees="-90"
+                                Jagged="False"/>
+                <skia:CircularProgress x:Name="Progress2"
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Margin="24"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand"
+                                EndingDegrees="{Binding GreenValue}"
+                                ProgressColor="#B3FE45"
+                                ProgressThickness="24"
+                                StartingDegrees="-90"
+                                Jagged="False"/>
+                <skia:CircularProgress x:Name="Progress3"
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Margin="48"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand"
+                                StartingDegrees="-90"
+                                EndingDegrees="{Binding BlueValue}"
+                                ProgressColor="#00D2D1"
+                                ProgressThickness="24"
+                                Jagged="False"/>
+
+                <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center">
+                    <Label Text="{Binding RedValue, StringFormat='Red: {0}'}" TextColor="#FF367E"/>
+                    <Label Text="{Binding GreenValue, StringFormat='Green: {0}'}" TextColor="#B3FE45"/>
+                    <Label Text="{Binding BlueValue, StringFormat='Blue: {0}'}" TextColor="#00D2D1"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Grid.ColumnSpan="2">
+                    <Slider MinimumTrackColor="#FF367E" MaximumTrackColor="#FF367E" ThumbColor="#FF367E" Minimum="0" Maximum="360" Value="{Binding RedValue}"/>
+                    <Slider MinimumTrackColor="#B3FE45" MaximumTrackColor="#B3FE45" ThumbColor="#B3FE45" Minimum="0" Maximum="360" Value="{Binding GreenValue}" />
+                    <Slider MinimumTrackColor="#00D2D1" MaximumTrackColor="#00D2D1" ThumbColor="#00D2D1" Minimum="0" Maximum="360" Value="{Binding BlueValue}"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
+
 
     </ContentView.Content>
 </ContentView>

@@ -70,6 +70,12 @@
     <PackageReference Include="OxyPlot.Xamarin.Forms">
       <Version>1.1.0-unstable0011</Version>
     </PackageReference>
+    <PackageReference Include="SkiaSharp.Views.Forms">
+      <Version>2.80.3-preview.24</Version>
+    </PackageReference>
+    <PackageReference Include="SkiaSharp">
+      <Version>2.80.3-preview.24</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
