@@ -1,43 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebugType>portable</DebugType>
-    <DebugSymbols>true</DebugSymbols>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
-    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0" />
-    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.1874" />
-    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.8" />
-    <PackageReference Include="Sharpnado.Shadows" Version="1.2.0" />
-    <PackageReference Include="OxyPlot.Xamarin.Forms" Version="1.1.0-unstable0011" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Models\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Fonts\" />
-    <Folder Include="Resources\" />
-    <Folder Include="Services\" />
-    <Folder Include="CustomRenders\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Fonts\typicons.ttf" />
-    <None Remove="Resources\42504-blocks.json" />
-    <None Remove="Resources\42631-mechanical-engineering-setting.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Fonts\typicons.ttf" />
-    <EmbeddedResource Include="Resources\42504-blocks.json" />
-    <EmbeddedResource Include="Resources\42631-mechanical-engineering-setting.json" />
-  </ItemGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+        <LangVersion>8.0</LangVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <DebugType>portable</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
+        <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
+        <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0" />
+        <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.1874" />
+        <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.8" />
+        <PackageReference Include="Sharpnado.Shadows" Version="1.2.0" />
+        <PackageReference Include="OxyPlot.Xamarin.Forms" Version="1.1.0-unstable0011" />
+        <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.3-preview.24" />
+        <PackageReference Include="SkiaSharp" Version="2.80.3-preview.24" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Views\" />
+        <Folder Include="ViewModels\" />
+        <Folder Include="Models\" />
+        <Folder Include="Interfaces\" />
+        <Folder Include="Helpers\" />
+        <Folder Include="Fonts\" />
+        <Folder Include="Resources\" />
+        <Folder Include="Services\" />
+        <Folder Include="CustomRenders\" />
+        <Folder Include="Skia\" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Remove="Fonts\typicons.ttf" />
+        <None Remove="Resources\42504-blocks.json" />
+        <None Remove="Resources\42631-mechanical-engineering-setting.json" />
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="Fonts\typicons.ttf" />
+        <EmbeddedResource Include="Resources\42504-blocks.json" />
+        <EmbeddedResource Include="Resources\42631-mechanical-engineering-setting.json" />
+    </ItemGroup>
 </Project>
