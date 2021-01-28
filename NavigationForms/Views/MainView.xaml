@@ -12,10 +12,11 @@
         <views:AdvertisementView x:Key="AdvertisementView" />
         <views:DependencyServicesDemoView x:Key="DependencyServicesDemoView" />
         <views:DataVisualizerView x:Key="DataVisualizerView" />
+        <views:CustomRendererView x:Key="CustomRenderView" />
     </ContentPage.Resources>
 
     <NavigationPage.TitleView>
-        <Grid BackgroundColor="#fd7b38" >
+        <Grid BackgroundColor="#fd7b38">
             <ImageButton Clicked="OnLeftButtonClicked"
                     HorizontalOptions="Start"
                     Margin="0"
@@ -73,6 +74,11 @@
                                  Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
                                  Value="DataVisualiserViewModel">
                         <Setter Property="Content" Value="{StaticResource DataVisualizerView}" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="CustomRenderViewModel">
+                        <Setter Property="Content" Value="{StaticResource CustomRenderView}" />
                     </DataTrigger>
                 </ContentView.Triggers>
             </ContentView>
@@ -168,7 +174,25 @@
                         Clicked="CloseLeftMenu">
                     <Button.ImageSource>
                         <FontImageSource FontFamily="Typicons"
-                                         Glyph="{x:Static helper:Typicons.Glyph88}"
+                                         Glyph="{x:Static helper:Typicons.Glyph69}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+
+                <Button Command="{Binding NavigateToCustomRender}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="Renderers"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.Glyph142}"
                                          Color="Black"
                                          Size="Title"/>
                     </Button.ImageSource>

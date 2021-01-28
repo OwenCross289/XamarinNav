@@ -28,6 +28,7 @@
     <Folder Include="Fonts\" />
     <Folder Include="Resources\" />
     <Folder Include="Services\" />
+    <Folder Include="CustomRenders\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Fonts\typicons.ttf" />

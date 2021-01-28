@@ -30,7 +30,9 @@ namespace NavigationForms.ViewModels
 
         }
 
-        private string text = "Notepad view. Can modify the content view to go here.";
+        private string text = "Animation View. " +
+            "This page is showing off animations with lottie files a json format for displaying animations." +
+            "These can be created from after effects files";
     }
 }
 
