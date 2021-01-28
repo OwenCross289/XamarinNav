@@ -6,7 +6,16 @@
     <ContentView.Content>
         <StackLayout>
             <Label Text="This is the default platform label"/>
-            <controls:DemoLabelRender Text="This is my custom label" />
+            <controls:DemoLabelRender Text="This is my custom label" TextColor="AliceBlue"/>
+            <Button Text="Submit Order" CornerRadius="5" TextColor="White">
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="Black" Offset="0" />
+                        <GradientStop Color="Gray" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Switch IsVisible="true" IsToggled="True" IsEnabled="False" />
         </StackLayout>
 
     </ContentView.Content>
