@@ -1160,6 +1160,7 @@ namespace NavigationForms.Droid
 			global::Lottie.Forms.Resource.Id.fill_vertical = global::NavigationForms.Droid.Resource.Id.fill_vertical;
 			global::Lottie.Forms.Resource.Id.@fixed = global::NavigationForms.Droid.Resource.Id.@fixed;
 			global::Lottie.Forms.Resource.Id.flyoutcontent_appbar = global::NavigationForms.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Lottie.Forms.Resource.Id.flyoutcontent_recycler = global::NavigationForms.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Lottie.Forms.Resource.Id.forever = global::NavigationForms.Droid.Resource.Id.forever;
 			global::Lottie.Forms.Resource.Id.FUNCTION = global::NavigationForms.Droid.Resource.Id.FUNCTION;
 			global::Lottie.Forms.Resource.Id.ghost_view = global::NavigationForms.Droid.Resource.Id.ghost_view;
@@ -3740,6 +3741,7 @@ namespace NavigationForms.Droid
 			global::SkiaSharp.Views.Forms.Resource.Id.fill_vertical = global::NavigationForms.Droid.Resource.Id.fill_vertical;
 			global::SkiaSharp.Views.Forms.Resource.Id.@fixed = global::NavigationForms.Droid.Resource.Id.@fixed;
 			global::SkiaSharp.Views.Forms.Resource.Id.flyoutcontent_appbar = global::NavigationForms.Droid.Resource.Id.flyoutcontent_appbar;
+			global::SkiaSharp.Views.Forms.Resource.Id.flyoutcontent_recycler = global::NavigationForms.Droid.Resource.Id.flyoutcontent_recycler;
 			global::SkiaSharp.Views.Forms.Resource.Id.forever = global::NavigationForms.Droid.Resource.Id.forever;
 			global::SkiaSharp.Views.Forms.Resource.Id.FUNCTION = global::NavigationForms.Droid.Resource.Id.FUNCTION;
 			global::SkiaSharp.Views.Forms.Resource.Id.ghost_view = global::NavigationForms.Droid.Resource.Id.ghost_view;
@@ -5247,20 +5249,12 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_fast_out_extra_slow_in = global::NavigationForms.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_open_enter = global::NavigationForms.Droid.Resource.Animation.fragment_open_enter;
 			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_open_exit = global::NavigationForms.Droid.Resource.Animation.fragment_open_exit;
-			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_bottom_sheet_slide_in = global::NavigationForms.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
-			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_bottom_sheet_slide_out = global::NavigationForms.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
-			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_card_lowers_interpolator = global::NavigationForms.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Xamarin.CommunityToolkit.Resource.Animator.design_appbar_state_list_animator = global::NavigationForms.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.CommunityToolkit.Resource.Animator.design_fab_hide_motion_spec = global::NavigationForms.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.design_fab_show_motion_spec = global::NavigationForms.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_btn_state_list_anim = global::NavigationForms.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::NavigationForms.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
-			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_card_state_list_anim = global::NavigationForms.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_chip_state_list_anim = global::NavigationForms.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_change_size_motion_spec = global::NavigationForms.Droid.Resource.Animator.mtrl_extended_fab_change_size_motion_spec;
-			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::NavigationForms.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
-			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::NavigationForms.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
-			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_extended_fab_state_list_animator = global::NavigationForms.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_fab_hide_motion_spec = global::NavigationForms.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_fab_show_motion_spec = global::NavigationForms.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Xamarin.CommunityToolkit.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::NavigationForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -5297,7 +5291,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.actionOverflowButtonStyle = global::NavigationForms.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.actionOverflowMenuStyle = global::NavigationForms.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.actionProviderClass = global::NavigationForms.Droid.Resource.Attribute.actionProviderClass;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.actionTextColorAlpha = global::NavigationForms.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.actionViewClass = global::NavigationForms.Droid.Resource.Attribute.actionViewClass;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.activityChooserViewStyle = global::NavigationForms.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.alertDialogButtonGroupStyle = global::NavigationForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -5307,8 +5300,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.allowStacking = global::NavigationForms.Droid.Resource.Attribute.allowStacking;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.alpha = global::NavigationForms.Droid.Resource.Attribute.alpha;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.alphabeticModifiers = global::NavigationForms.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.animationMode = global::NavigationForms.Droid.Resource.Attribute.animationMode;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.appBarLayoutStyle = global::NavigationForms.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.arrowHeadLength = global::NavigationForms.Droid.Resource.Attribute.arrowHeadLength;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.arrowShaftLength = global::NavigationForms.Droid.Resource.Attribute.arrowShaftLength;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoCompleteTextViewStyle = global::NavigationForms.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -5318,29 +5309,16 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeStepGranularity = global::NavigationForms.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.autoSizeTextType = global::NavigationForms.Droid.Resource.Attribute.autoSizeTextType;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.background = global::NavigationForms.Droid.Resource.Attribute.background;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundColor = global::NavigationForms.Droid.Resource.Attribute.backgroundColor;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetBottom = global::NavigationForms.Droid.Resource.Attribute.backgroundInsetBottom;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetEnd = global::NavigationForms.Droid.Resource.Attribute.backgroundInsetEnd;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetStart = global::NavigationForms.Droid.Resource.Attribute.backgroundInsetStart;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundInsetTop = global::NavigationForms.Droid.Resource.Attribute.backgroundInsetTop;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundOverlayColorAlpha = global::NavigationForms.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundSplit = global::NavigationForms.Droid.Resource.Attribute.backgroundSplit;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundStacked = global::NavigationForms.Droid.Resource.Attribute.backgroundStacked;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundTint = global::NavigationForms.Droid.Resource.Attribute.backgroundTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.backgroundTintMode = global::NavigationForms.Droid.Resource.Attribute.backgroundTintMode;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeGravity = global::NavigationForms.Droid.Resource.Attribute.badgeGravity;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeStyle = global::NavigationForms.Droid.Resource.Attribute.badgeStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.badgeTextColor = global::NavigationForms.Droid.Resource.Attribute.badgeTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.barLength = global::NavigationForms.Droid.Resource.Attribute.barLength;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_autoHide = global::NavigationForms.Droid.Resource.Attribute.behavior_autoHide;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_autoShrink = global::NavigationForms.Droid.Resource.Attribute.behavior_autoShrink;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_expandedOffset = global::NavigationForms.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_fitToContents = global::NavigationForms.Droid.Resource.Attribute.behavior_fitToContents;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_halfExpandedRatio = global::NavigationForms.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_hideable = global::NavigationForms.Droid.Resource.Attribute.behavior_hideable;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_overlapTop = global::NavigationForms.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_peekHeight = global::NavigationForms.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_saveFlags = global::NavigationForms.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.behavior_skipCollapsed = global::NavigationForms.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.borderlessButtonStyle = global::NavigationForms.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.borderWidth = global::NavigationForms.Droid.Resource.Attribute.borderWidth;
@@ -5357,7 +5335,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.boxCornerRadiusTopStart = global::NavigationForms.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeColor = global::NavigationForms.Droid.Resource.Attribute.boxStrokeColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeWidth = global::NavigationForms.Droid.Resource.Attribute.boxStrokeWidth;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.boxStrokeWidthFocused = global::NavigationForms.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarButtonStyle = global::NavigationForms.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarNegativeButtonStyle = global::NavigationForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.buttonBarNeutralButtonStyle = global::NavigationForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -5374,17 +5351,14 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardBackgroundColor = global::NavigationForms.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardCornerRadius = global::NavigationForms.Droid.Resource.Attribute.cardCornerRadius;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardElevation = global::NavigationForms.Droid.Resource.Attribute.cardElevation;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cardForegroundColor = global::NavigationForms.Droid.Resource.Attribute.cardForegroundColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardMaxElevation = global::NavigationForms.Droid.Resource.Attribute.cardMaxElevation;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardPreventCornerOverlap = global::NavigationForms.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardUseCompatPadding = global::NavigationForms.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cardViewStyle = global::NavigationForms.Droid.Resource.Attribute.cardViewStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkboxStyle = global::NavigationForms.Droid.Resource.Attribute.checkboxStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedButton = global::NavigationForms.Droid.Resource.Attribute.checkedButton;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedChip = global::NavigationForms.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIcon = global::NavigationForms.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconEnabled = global::NavigationForms.Droid.Resource.Attribute.checkedIconEnabled;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconTint = global::NavigationForms.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedIconVisible = global::NavigationForms.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.checkedTextViewStyle = global::NavigationForms.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipBackgroundColor = global::NavigationForms.Droid.Resource.Attribute.chipBackgroundColor;
@@ -5397,7 +5371,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipIconTint = global::NavigationForms.Droid.Resource.Attribute.chipIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipIconVisible = global::NavigationForms.Droid.Resource.Attribute.chipIconVisible;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipMinHeight = global::NavigationForms.Droid.Resource.Attribute.chipMinHeight;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.chipMinTouchTargetSize = global::NavigationForms.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSpacing = global::NavigationForms.Droid.Resource.Attribute.chipSpacing;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSpacingHorizontal = global::NavigationForms.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSpacingVertical = global::NavigationForms.Droid.Resource.Attribute.chipSpacingVertical;
@@ -5406,7 +5379,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStrokeColor = global::NavigationForms.Droid.Resource.Attribute.chipStrokeColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStrokeWidth = global::NavigationForms.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.chipStyle = global::NavigationForms.Droid.Resource.Attribute.chipStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.chipSurfaceColor = global::NavigationForms.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIcon = global::NavigationForms.Droid.Resource.Attribute.closeIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconEnabled = global::NavigationForms.Droid.Resource.Attribute.closeIconEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.closeIconEndPadding = global::NavigationForms.Droid.Resource.Attribute.closeIconEndPadding;
@@ -5428,19 +5400,9 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorControlHighlight = global::NavigationForms.Droid.Resource.Attribute.colorControlHighlight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorControlNormal = global::NavigationForms.Droid.Resource.Attribute.colorControlNormal;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorError = global::NavigationForms.Droid.Resource.Attribute.colorError;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnBackground = global::NavigationForms.Droid.Resource.Attribute.colorOnBackground;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnError = global::NavigationForms.Droid.Resource.Attribute.colorOnError;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnPrimary = global::NavigationForms.Droid.Resource.Attribute.colorOnPrimary;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnPrimarySurface = global::NavigationForms.Droid.Resource.Attribute.colorOnPrimarySurface;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnSecondary = global::NavigationForms.Droid.Resource.Attribute.colorOnSecondary;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorOnSurface = global::NavigationForms.Droid.Resource.Attribute.colorOnSurface;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimary = global::NavigationForms.Droid.Resource.Attribute.colorPrimary;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimaryDark = global::NavigationForms.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimarySurface = global::NavigationForms.Droid.Resource.Attribute.colorPrimarySurface;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorPrimaryVariant = global::NavigationForms.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSecondary = global::NavigationForms.Droid.Resource.Attribute.colorSecondary;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSecondaryVariant = global::NavigationForms.Droid.Resource.Attribute.colorSecondaryVariant;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSurface = global::NavigationForms.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.colorSwitchThumbNormal = global::NavigationForms.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.commitIcon = global::NavigationForms.Droid.Resource.Attribute.commitIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentDescription = global::NavigationForms.Droid.Resource.Attribute.contentDescription;
@@ -5458,28 +5420,12 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.contentScrim = global::NavigationForms.Droid.Resource.Attribute.contentScrim;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.controlBackground = global::NavigationForms.Droid.Resource.Attribute.controlBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.coordinatorLayoutStyle = global::NavigationForms.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamily = global::NavigationForms.Droid.Resource.Attribute.cornerFamily;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyBottomLeft = global::NavigationForms.Droid.Resource.Attribute.cornerFamilyBottomLeft;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyBottomRight = global::NavigationForms.Droid.Resource.Attribute.cornerFamilyBottomRight;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyTopLeft = global::NavigationForms.Droid.Resource.Attribute.cornerFamilyTopLeft;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerFamilyTopRight = global::NavigationForms.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerRadius = global::NavigationForms.Droid.Resource.Attribute.cornerRadius;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSize = global::NavigationForms.Droid.Resource.Attribute.cornerSize;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeBottomLeft = global::NavigationForms.Droid.Resource.Attribute.cornerSizeBottomLeft;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeBottomRight = global::NavigationForms.Droid.Resource.Attribute.cornerSizeBottomRight;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeTopLeft = global::NavigationForms.Droid.Resource.Attribute.cornerSizeTopLeft;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.cornerSizeTopRight = global::NavigationForms.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.counterEnabled = global::NavigationForms.Droid.Resource.Attribute.counterEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.counterMaxLength = global::NavigationForms.Droid.Resource.Attribute.counterMaxLength;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.counterOverflowTextAppearance = global::NavigationForms.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.counterOverflowTextColor = global::NavigationForms.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.counterTextAppearance = global::NavigationForms.Droid.Resource.Attribute.counterTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.counterTextColor = global::NavigationForms.Droid.Resource.Attribute.counterTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.customNavigationLayout = global::NavigationForms.Droid.Resource.Attribute.customNavigationLayout;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.dayInvalidStyle = global::NavigationForms.Droid.Resource.Attribute.dayInvalidStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.daySelectedStyle = global::NavigationForms.Droid.Resource.Attribute.daySelectedStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.dayStyle = global::NavigationForms.Droid.Resource.Attribute.dayStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.dayTodayStyle = global::NavigationForms.Droid.Resource.Attribute.dayTodayStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.defaultQueryHint = global::NavigationForms.Droid.Resource.Attribute.defaultQueryHint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogCornerRadius = global::NavigationForms.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dialogPreferredPadding = global::NavigationForms.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -5499,30 +5445,16 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableTintMode = global::NavigationForms.Droid.Resource.Attribute.drawableTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawableTopCompat = global::NavigationForms.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.drawerArrowStyle = global::NavigationForms.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.drawerLayoutStyle = global::NavigationForms.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dropdownListPreferredItemHeight = global::NavigationForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.dropDownListViewStyle = global::NavigationForms.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextBackground = global::NavigationForms.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextColor = global::NavigationForms.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.editTextStyle = global::NavigationForms.Droid.Resource.Attribute.editTextStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.elevation = global::NavigationForms.Droid.Resource.Attribute.elevation;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.elevationOverlayColor = global::NavigationForms.Droid.Resource.Attribute.elevationOverlayColor;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.elevationOverlayEnabled = global::NavigationForms.Droid.Resource.Attribute.elevationOverlayEnabled;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconCheckable = global::NavigationForms.Droid.Resource.Attribute.endIconCheckable;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconContentDescription = global::NavigationForms.Droid.Resource.Attribute.endIconContentDescription;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconDrawable = global::NavigationForms.Droid.Resource.Attribute.endIconDrawable;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconMode = global::NavigationForms.Droid.Resource.Attribute.endIconMode;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconTint = global::NavigationForms.Droid.Resource.Attribute.endIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.endIconTintMode = global::NavigationForms.Droid.Resource.Attribute.endIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.enforceMaterialTheme = global::NavigationForms.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.enforceTextAppearance = global::NavigationForms.Droid.Resource.Attribute.enforceTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.ensureMinTouchTargetSize = global::NavigationForms.Droid.Resource.Attribute.ensureMinTouchTargetSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.errorEnabled = global::NavigationForms.Droid.Resource.Attribute.errorEnabled;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.errorIconDrawable = global::NavigationForms.Droid.Resource.Attribute.errorIconDrawable;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.errorIconTint = global::NavigationForms.Droid.Resource.Attribute.errorIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.errorIconTintMode = global::NavigationForms.Droid.Resource.Attribute.errorIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.errorTextAppearance = global::NavigationForms.Droid.Resource.Attribute.errorTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.errorTextColor = global::NavigationForms.Droid.Resource.Attribute.errorTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandActivityOverflowButtonDrawable = global::NavigationForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expanded = global::NavigationForms.Droid.Resource.Attribute.expanded;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleGravity = global::NavigationForms.Droid.Resource.Attribute.expandedTitleGravity;
@@ -5532,10 +5464,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMarginStart = global::NavigationForms.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleMarginTop = global::NavigationForms.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.expandedTitleTextAppearance = global::NavigationForms.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.extendedFloatingActionButtonStyle = global::NavigationForms.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.extendMotionSpec = global::NavigationForms.Droid.Resource.Attribute.extendMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fabAlignmentMode = global::NavigationForms.Droid.Resource.Attribute.fabAlignmentMode;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.fabAnimationMode = global::NavigationForms.Droid.Resource.Attribute.fabAnimationMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fabCradleMargin = global::NavigationForms.Droid.Resource.Attribute.fabCradleMargin;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fabCradleRoundedCornerRadius = global::NavigationForms.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.fabCradleVerticalOffset = global::NavigationForms.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -5567,14 +5496,12 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.helperText = global::NavigationForms.Droid.Resource.Attribute.helperText;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextEnabled = global::NavigationForms.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextTextAppearance = global::NavigationForms.Droid.Resource.Attribute.helperTextTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.helperTextTextColor = global::NavigationForms.Droid.Resource.Attribute.helperTextTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hideMotionSpec = global::NavigationForms.Droid.Resource.Attribute.hideMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hideOnContentScroll = global::NavigationForms.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hideOnScroll = global::NavigationForms.Droid.Resource.Attribute.hideOnScroll;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hintAnimationEnabled = global::NavigationForms.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hintEnabled = global::NavigationForms.Droid.Resource.Attribute.hintEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hintTextAppearance = global::NavigationForms.Droid.Resource.Attribute.hintTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.hintTextColor = global::NavigationForms.Droid.Resource.Attribute.hintTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.homeAsUpIndicator = global::NavigationForms.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.homeLayout = global::NavigationForms.Droid.Resource.Attribute.homeLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.hoveredFocusedTranslationZ = global::NavigationForms.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
@@ -5592,27 +5519,14 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.initialActivityCount = global::NavigationForms.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.insetForeground = global::NavigationForms.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.isLightTheme = global::NavigationForms.Droid.Resource.Attribute.isLightTheme;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.isMaterialTheme = global::NavigationForms.Droid.Resource.Attribute.isMaterialTheme;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemBackground = global::NavigationForms.Droid.Resource.Attribute.itemBackground;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemFillColor = global::NavigationForms.Droid.Resource.Attribute.itemFillColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemHorizontalPadding = global::NavigationForms.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemHorizontalTranslationEnabled = global::NavigationForms.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemIconPadding = global::NavigationForms.Droid.Resource.Attribute.itemIconPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemIconSize = global::NavigationForms.Droid.Resource.Attribute.itemIconSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemIconTint = global::NavigationForms.Droid.Resource.Attribute.itemIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemMaxLines = global::NavigationForms.Droid.Resource.Attribute.itemMaxLines;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemPadding = global::NavigationForms.Droid.Resource.Attribute.itemPadding;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemRippleColor = global::NavigationForms.Droid.Resource.Attribute.itemRippleColor;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeAppearance = global::NavigationForms.Droid.Resource.Attribute.itemShapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeFillColor = global::NavigationForms.Droid.Resource.Attribute.itemShapeFillColor;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetBottom = global::NavigationForms.Droid.Resource.Attribute.itemShapeInsetBottom;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetEnd = global::NavigationForms.Droid.Resource.Attribute.itemShapeInsetEnd;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetStart = global::NavigationForms.Droid.Resource.Attribute.itemShapeInsetStart;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemShapeInsetTop = global::NavigationForms.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemSpacing = global::NavigationForms.Droid.Resource.Attribute.itemSpacing;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemStrokeColor = global::NavigationForms.Droid.Resource.Attribute.itemStrokeColor;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.itemStrokeWidth = global::NavigationForms.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearance = global::NavigationForms.Droid.Resource.Attribute.itemTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearanceActive = global::NavigationForms.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.itemTextAppearanceInactive = global::NavigationForms.Droid.Resource.Attribute.itemTextAppearanceInactive;
@@ -5633,7 +5547,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_scrollFlags = global::NavigationForms.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.layout_scrollInterpolator = global::NavigationForms.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.liftOnScroll = global::NavigationForms.Droid.Resource.Attribute.liftOnScroll;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.liftOnScrollTargetViewId = global::NavigationForms.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.lineHeight = global::NavigationForms.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.lineSpacing = global::NavigationForms.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.listChoiceBackgroundIndicator = global::NavigationForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -5653,39 +5566,18 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.listPreferredItemPaddingStart = global::NavigationForms.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.logo = global::NavigationForms.Droid.Resource.Attribute.logo;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.logoDescription = global::NavigationForms.Droid.Resource.Attribute.logoDescription;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogBodyTextStyle = global::NavigationForms.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTheme = global::NavigationForms.Droid.Resource.Attribute.materialAlertDialogTheme;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTitleIconStyle = global::NavigationForms.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::NavigationForms.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialAlertDialogTitleTextStyle = global::NavigationForms.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialButtonOutlinedStyle = global::NavigationForms.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialButtonStyle = global::NavigationForms.Droid.Resource.Attribute.materialButtonStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialButtonToggleGroupStyle = global::NavigationForms.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarDay = global::NavigationForms.Droid.Resource.Attribute.materialCalendarDay;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarFullscreenTheme = global::NavigationForms.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderConfirmButton = global::NavigationForms.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderDivider = global::NavigationForms.Droid.Resource.Attribute.materialCalendarHeaderDivider;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderLayout = global::NavigationForms.Droid.Resource.Attribute.materialCalendarHeaderLayout;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderSelection = global::NavigationForms.Droid.Resource.Attribute.materialCalendarHeaderSelection;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderTitle = global::NavigationForms.Droid.Resource.Attribute.materialCalendarHeaderTitle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarHeaderToggleButton = global::NavigationForms.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarStyle = global::NavigationForms.Droid.Resource.Attribute.materialCalendarStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCalendarTheme = global::NavigationForms.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.materialCardViewStyle = global::NavigationForms.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.materialThemeOverlay = global::NavigationForms.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxActionInlineWidth = global::NavigationForms.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxButtonHeight = global::NavigationForms.Droid.Resource.Attribute.maxButtonHeight;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.maxCharacterCount = global::NavigationForms.Droid.Resource.Attribute.maxCharacterCount;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.maxImageSize = global::NavigationForms.Droid.Resource.Attribute.maxImageSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.measureWithLargestChild = global::NavigationForms.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.menu = global::NavigationForms.Droid.Resource.Attribute.menu;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.minTouchTargetSize = global::NavigationForms.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.multiChoiceItemLayout = global::NavigationForms.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationContentDescription = global::NavigationForms.Droid.Resource.Attribute.navigationContentDescription;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationIcon = global::NavigationForms.Droid.Resource.Attribute.navigationIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationMode = global::NavigationForms.Droid.Resource.Attribute.navigationMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.navigationViewStyle = global::NavigationForms.Droid.Resource.Attribute.navigationViewStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.number = global::NavigationForms.Droid.Resource.Attribute.number;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.numericModifiers = global::NavigationForms.Droid.Resource.Attribute.numericModifiers;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.overlapAnchor = global::NavigationForms.Droid.Resource.Attribute.overlapAnchor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.paddingBottomNoButtons = global::NavigationForms.Droid.Resource.Attribute.paddingBottomNoButtons;
@@ -5700,7 +5592,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleEnabled = global::NavigationForms.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleTint = global::NavigationForms.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.passwordToggleTintMode = global::NavigationForms.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.popupMenuBackground = global::NavigationForms.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.popupMenuStyle = global::NavigationForms.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.popupTheme = global::NavigationForms.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.popupWindowStyle = global::NavigationForms.Droid.Resource.Attribute.popupWindowStyle;
@@ -5711,7 +5602,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.queryBackground = global::NavigationForms.Droid.Resource.Attribute.queryBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.queryHint = global::NavigationForms.Droid.Resource.Attribute.queryHint;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.radioButtonStyle = global::NavigationForms.Droid.Resource.Attribute.radioButtonStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.rangeFillColor = global::NavigationForms.Droid.Resource.Attribute.rangeFillColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyle = global::NavigationForms.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyleIndicator = global::NavigationForms.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.ratingBarStyleSmall = global::NavigationForms.Droid.Resource.Attribute.ratingBarStyleSmall;
@@ -5728,17 +5618,11 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.seekBarStyle = global::NavigationForms.Droid.Resource.Attribute.seekBarStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.selectableItemBackground = global::NavigationForms.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.selectableItemBackgroundBorderless = global::NavigationForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearance = global::NavigationForms.Droid.Resource.Attribute.shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceLargeComponent = global::NavigationForms.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceMediumComponent = global::NavigationForms.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Attribute.shapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.shapeAppearanceSmallComponent = global::NavigationForms.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showAsAction = global::NavigationForms.Droid.Resource.Attribute.showAsAction;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showDividers = global::NavigationForms.Droid.Resource.Attribute.showDividers;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showMotionSpec = global::NavigationForms.Droid.Resource.Attribute.showMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showText = global::NavigationForms.Droid.Resource.Attribute.showText;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.showTitle = global::NavigationForms.Droid.Resource.Attribute.showTitle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.shrinkMotionSpec = global::NavigationForms.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.singleChoiceItemLayout = global::NavigationForms.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.singleLine = global::NavigationForms.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.singleSelection = global::NavigationForms.Droid.Resource.Attribute.singleSelection;
@@ -5751,19 +5635,12 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.splitTrack = global::NavigationForms.Droid.Resource.Attribute.splitTrack;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.srcCompat = global::NavigationForms.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.stackFromEnd = global::NavigationForms.Droid.Resource.Attribute.stackFromEnd;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconCheckable = global::NavigationForms.Droid.Resource.Attribute.startIconCheckable;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconContentDescription = global::NavigationForms.Droid.Resource.Attribute.startIconContentDescription;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconDrawable = global::NavigationForms.Droid.Resource.Attribute.startIconDrawable;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconTint = global::NavigationForms.Droid.Resource.Attribute.startIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.startIconTintMode = global::NavigationForms.Droid.Resource.Attribute.startIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.state_above_anchor = global::NavigationForms.Droid.Resource.Attribute.state_above_anchor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.state_collapsed = global::NavigationForms.Droid.Resource.Attribute.state_collapsed;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.state_collapsible = global::NavigationForms.Droid.Resource.Attribute.state_collapsible;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.state_dragged = global::NavigationForms.Droid.Resource.Attribute.state_dragged;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.state_liftable = global::NavigationForms.Droid.Resource.Attribute.state_liftable;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.state_lifted = global::NavigationForms.Droid.Resource.Attribute.state_lifted;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.statusBarBackground = global::NavigationForms.Droid.Resource.Attribute.statusBarBackground;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.statusBarForeground = global::NavigationForms.Droid.Resource.Attribute.statusBarForeground;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.statusBarScrim = global::NavigationForms.Droid.Resource.Attribute.statusBarScrim;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.strokeColor = global::NavigationForms.Droid.Resource.Attribute.strokeColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.strokeWidth = global::NavigationForms.Droid.Resource.Attribute.strokeWidth;
@@ -5774,7 +5651,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.subtitleTextColor = global::NavigationForms.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.subtitleTextStyle = global::NavigationForms.Droid.Resource.Attribute.subtitleTextStyle;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.suggestionRowLayout = global::NavigationForms.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::NavigationForms.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.switchMinWidth = global::NavigationForms.Droid.Resource.Attribute.switchMinWidth;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.switchPadding = global::NavigationForms.Droid.Resource.Attribute.switchPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.switchStyle = global::NavigationForms.Droid.Resource.Attribute.switchStyle;
@@ -5817,7 +5693,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline5 = global::NavigationForms.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceHeadline6 = global::NavigationForms.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceLargePopupMenu = global::NavigationForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceLineHeightEnabled = global::NavigationForms.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceListItem = global::NavigationForms.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceListItemSecondary = global::NavigationForms.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textAppearanceListItemSmall = global::NavigationForms.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -5835,7 +5710,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textLocale = global::NavigationForms.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.textStartPadding = global::NavigationForms.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.theme = global::NavigationForms.Droid.Resource.Attribute.theme;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.themeLineHeight = global::NavigationForms.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thickness = global::NavigationForms.Droid.Resource.Attribute.thickness;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTextPadding = global::NavigationForms.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.thumbTint = global::NavigationForms.Droid.Resource.Attribute.thumbTint;
@@ -5867,7 +5741,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.trackTintMode = global::NavigationForms.Droid.Resource.Attribute.trackTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.ttcIndex = global::NavigationForms.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.useCompatPadding = global::NavigationForms.Droid.Resource.Attribute.useCompatPadding;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.useMaterialThemeColors = global::NavigationForms.Droid.Resource.Attribute.useMaterialThemeColors;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.viewInflaterClass = global::NavigationForms.Droid.Resource.Attribute.viewInflaterClass;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.voiceIcon = global::NavigationForms.Droid.Resource.Attribute.voiceIcon;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.windowActionBar = global::NavigationForms.Droid.Resource.Attribute.windowActionBar;
@@ -5880,9 +5753,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Attribute.windowMinWidthMajor = global::NavigationForms.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.windowMinWidthMinor = global::NavigationForms.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Xamarin.CommunityToolkit.Resource.Attribute.windowNoTitle = global::NavigationForms.Droid.Resource.Attribute.windowNoTitle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.yearSelectedStyle = global::NavigationForms.Droid.Resource.Attribute.yearSelectedStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.yearStyle = global::NavigationForms.Droid.Resource.Attribute.yearStyle;
-			global::Xamarin.CommunityToolkit.Resource.Attribute.yearTodayStyle = global::NavigationForms.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xamarin.CommunityToolkit.Resource.Boolean.abc_action_bar_embed_tabs = global::NavigationForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Xamarin.CommunityToolkit.Resource.Boolean.abc_allow_stacked_button_bar = global::NavigationForms.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Xamarin.CommunityToolkit.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::NavigationForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
@@ -5892,8 +5762,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.abc_btn_colored_borderless_text_material = global::NavigationForms.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Xamarin.CommunityToolkit.Resource.Color.abc_btn_colored_text_material = global::NavigationForms.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Xamarin.CommunityToolkit.Resource.Color.abc_color_highlight_material = global::NavigationForms.Droid.Resource.Color.abc_color_highlight_material;
-			global::Xamarin.CommunityToolkit.Resource.Color.abc_decor_view_status_guard = global::NavigationForms.Droid.Resource.Color.abc_decor_view_status_guard;
-			global::Xamarin.CommunityToolkit.Resource.Color.abc_decor_view_status_guard_light = global::NavigationForms.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Xamarin.CommunityToolkit.Resource.Color.abc_hint_foreground_material_dark = global::NavigationForms.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.CommunityToolkit.Resource.Color.abc_hint_foreground_material_light = global::NavigationForms.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Xamarin.CommunityToolkit.Resource.Color.abc_primary_text_disable_only_material_dark = global::NavigationForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -5936,35 +5804,9 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.cardview_light_background = global::NavigationForms.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.CommunityToolkit.Resource.Color.cardview_shadow_end_color = global::NavigationForms.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.cardview_shadow_start_color = global::NavigationForms.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.checkbox_themeable_attribute_color = global::NavigationForms.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_bottom_navigation_shadow_color = global::NavigationForms.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_box_stroke_color = global::NavigationForms.Droid.Resource.Color.design_box_stroke_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_background = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_background;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_error = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_error;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_background = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_on_background;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_error = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_on_error;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_primary = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_on_primary;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_secondary = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_on_secondary;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_on_surface = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_on_surface;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_primary = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_primary;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_primary_dark = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_primary_dark;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_primary_variant = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_primary_variant;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_secondary = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_secondary;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_secondary_variant = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_secondary_variant;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_dark_default_color_surface = global::NavigationForms.Droid.Resource.Color.design_dark_default_color_surface;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_background = global::NavigationForms.Droid.Resource.Color.design_default_color_background;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_error = global::NavigationForms.Droid.Resource.Color.design_default_color_error;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_background = global::NavigationForms.Droid.Resource.Color.design_default_color_on_background;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_error = global::NavigationForms.Droid.Resource.Color.design_default_color_on_error;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_primary = global::NavigationForms.Droid.Resource.Color.design_default_color_on_primary;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_secondary = global::NavigationForms.Droid.Resource.Color.design_default_color_on_secondary;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_on_surface = global::NavigationForms.Droid.Resource.Color.design_default_color_on_surface;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_primary = global::NavigationForms.Droid.Resource.Color.design_default_color_primary;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_primary_dark = global::NavigationForms.Droid.Resource.Color.design_default_color_primary_dark;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_primary_variant = global::NavigationForms.Droid.Resource.Color.design_default_color_primary_variant;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_secondary = global::NavigationForms.Droid.Resource.Color.design_default_color_secondary;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_secondary_variant = global::NavigationForms.Droid.Resource.Color.design_default_color_secondary_variant;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_default_color_surface = global::NavigationForms.Droid.Resource.Color.design_default_color_surface;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_error = global::NavigationForms.Droid.Resource.Color.design_error;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_shadow_end_color = global::NavigationForms.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_shadow_mid_color = global::NavigationForms.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -5973,7 +5815,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_stroke_end_outer_color = global::NavigationForms.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_stroke_top_inner_color = global::NavigationForms.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_fab_stroke_top_outer_color = global::NavigationForms.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.design_icon_tint = global::NavigationForms.Droid.Resource.Color.design_icon_tint;
 			global::Xamarin.CommunityToolkit.Resource.Color.design_snackbar_background_color = global::NavigationForms.Droid.Resource.Color.design_snackbar_background_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.dim_foreground_disabled_material_dark = global::NavigationForms.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Xamarin.CommunityToolkit.Resource.Color.dim_foreground_disabled_material_light = global::NavigationForms.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -5997,55 +5838,20 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_800 = global::NavigationForms.Droid.Resource.Color.material_grey_800;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_850 = global::NavigationForms.Droid.Resource.Color.material_grey_850;
 			global::Xamarin.CommunityToolkit.Resource.Color.material_grey_900 = global::NavigationForms.Droid.Resource.Color.material_grey_900;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_background_disabled = global::NavigationForms.Droid.Resource.Color.material_on_background_disabled;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_background_emphasis_high_type = global::NavigationForms.Droid.Resource.Color.material_on_background_emphasis_high_type;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_background_emphasis_medium = global::NavigationForms.Droid.Resource.Color.material_on_background_emphasis_medium;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_primary_disabled = global::NavigationForms.Droid.Resource.Color.material_on_primary_disabled;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_primary_emphasis_high_type = global::NavigationForms.Droid.Resource.Color.material_on_primary_emphasis_high_type;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_primary_emphasis_medium = global::NavigationForms.Droid.Resource.Color.material_on_primary_emphasis_medium;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_surface_disabled = global::NavigationForms.Droid.Resource.Color.material_on_surface_disabled;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_surface_emphasis_high_type = global::NavigationForms.Droid.Resource.Color.material_on_surface_emphasis_high_type;
-			global::Xamarin.CommunityToolkit.Resource.Color.material_on_surface_emphasis_medium = global::NavigationForms.Droid.Resource.Color.material_on_surface_emphasis_medium;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::NavigationForms.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_bottom_nav_item_tint = global::NavigationForms.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_bottom_nav_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_bg_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_stroke_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_btn_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_color_disabled = global::NavigationForms.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_text_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_btn_transparent_bg_color = global::NavigationForms.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_calendar_item_stroke_color = global::NavigationForms.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_calendar_selected_range = global::NavigationForms.Droid.Resource.Color.mtrl_calendar_selected_range;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_card_view_foreground = global::NavigationForms.Droid.Resource.Color.mtrl_card_view_foreground;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_card_view_ripple = global::NavigationForms.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_background_color = global::NavigationForms.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_close_icon_tint = global::NavigationForms.Droid.Resource.Color.mtrl_chip_close_icon_tint;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_chip_ripple_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_surface_color = global::NavigationForms.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_chip_text_color = global::NavigationForms.Droid.Resource.Color.mtrl_chip_text_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_choice_chip_background_color = global::NavigationForms.Droid.Resource.Color.mtrl_choice_chip_background_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_choice_chip_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_choice_chip_text_color = global::NavigationForms.Droid.Resource.Color.mtrl_choice_chip_text_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_error = global::NavigationForms.Droid.Resource.Color.mtrl_error;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_extended_fab_bg_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_extended_fab_bg_color_selector;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_extended_fab_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_extended_fab_ripple_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_extended_fab_text_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_extended_fab_text_color_selector;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_fab_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_fab_ripple_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_filled_background_color = global::NavigationForms.Droid.Resource.Color.mtrl_filled_background_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_filled_icon_tint = global::NavigationForms.Droid.Resource.Color.mtrl_filled_icon_tint;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_filled_stroke_color = global::NavigationForms.Droid.Resource.Color.mtrl_filled_stroke_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_indicator_text_color = global::NavigationForms.Droid.Resource.Color.mtrl_indicator_text_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_background_color = global::NavigationForms.Droid.Resource.Color.mtrl_navigation_item_background_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_icon_tint = global::NavigationForms.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_navigation_item_text_color = global::NavigationForms.Droid.Resource.Color.mtrl_navigation_item_text_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_outlined_icon_tint = global::NavigationForms.Droid.Resource.Color.mtrl_outlined_icon_tint;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_outlined_stroke_color = global::NavigationForms.Droid.Resource.Color.mtrl_outlined_stroke_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_popupmenu_overlay_color = global::NavigationForms.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_scrim_color = global::NavigationForms.Droid.Resource.Color.mtrl_scrim_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_tabs_colored_ripple_color = global::NavigationForms.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_tabs_icon_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -6055,7 +5861,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_default_box_stroke_color = global::NavigationForms.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_disabled_color = global::NavigationForms.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::NavigationForms.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
-			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::NavigationForms.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::NavigationForms.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Xamarin.CommunityToolkit.Resource.Color.mtrl_text_btn_text_color_selector = global::NavigationForms.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Xamarin.CommunityToolkit.Resource.Color.notification_action_color_filter = global::NavigationForms.Droid.Resource.Color.notification_action_color_filter;
@@ -6081,8 +5886,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_material_light = global::NavigationForms.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_normal_material_dark = global::NavigationForms.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.CommunityToolkit.Resource.Color.switch_thumb_normal_material_light = global::NavigationForms.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.CommunityToolkit.Resource.Color.test_mtrl_calendar_day = global::NavigationForms.Droid.Resource.Color.test_mtrl_calendar_day;
-			global::Xamarin.CommunityToolkit.Resource.Color.test_mtrl_calendar_day_selected = global::NavigationForms.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.CommunityToolkit.Resource.Color.tooltip_background_dark = global::NavigationForms.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.CommunityToolkit.Resource.Color.tooltip_background_light = global::NavigationForms.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_action_bar_content_inset_material = global::NavigationForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -6163,8 +5966,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::NavigationForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_title_material = global::NavigationForms.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.abc_text_size_title_material_toolbar = global::NavigationForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.action_bar_size = global::NavigationForms.Droid.Resource.Dimension.action_bar_size;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.appcompat_dialog_background_inset = global::NavigationForms.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.browser_actions_context_menu_max_width = global::NavigationForms.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.browser_actions_context_menu_min_padding = global::NavigationForms.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.cardview_compat_inset_shadow = global::NavigationForms.Droid.Resource.Dimension.cardview_compat_inset_shadow;
@@ -6177,8 +5978,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_control_corner_material = global::NavigationForms.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_notification_large_icon_max_height = global::NavigationForms.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.compat_notification_large_icon_max_width = global::NavigationForms.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.default_dimension = global::NavigationForms.Droid.Resource.Dimension.default_dimension;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.def_drawer_elevation = global::NavigationForms.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_appbar_elevation = global::NavigationForms.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::NavigationForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::NavigationForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -6191,7 +5990,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_margin = global::NavigationForms.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_shadow_height = global::NavigationForms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_navigation_text_size = global::NavigationForms.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_sheet_elevation = global::NavigationForms.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_sheet_modal_elevation = global::NavigationForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_bottom_sheet_peek_height_min = global::NavigationForms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_fab_border_width = global::NavigationForms.Droid.Resource.Dimension.design_fab_border_width;
@@ -6210,7 +6008,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_padding_bottom = global::NavigationForms.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_navigation_separator_vertical_padding = global::NavigationForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_action_inline_max_width = global::NavigationForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_action_text_color_alpha = global::NavigationForms.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_background_corner_radius = global::NavigationForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_elevation = global::NavigationForms.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::NavigationForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -6240,24 +6037,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::NavigationForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::NavigationForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::NavigationForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_disabled = global::NavigationForms.Droid.Resource.Dimension.material_emphasis_disabled;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_high_type = global::NavigationForms.Droid.Resource.Dimension.material_emphasis_high_type;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.material_emphasis_medium = global::NavigationForms.Droid.Resource.Dimension.material_emphasis_medium;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.material_text_view_test_line_height = global::NavigationForms.Droid.Resource.Dimension.material_text_view_test_line_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.material_text_view_test_line_height_override = global::NavigationForms.Droid.Resource.Dimension.material_text_view_test_line_height_override;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::NavigationForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::NavigationForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::NavigationForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::NavigationForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::NavigationForms.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::NavigationForms.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_radius = global::NavigationForms.Droid.Resource.Dimension.mtrl_badge_radius;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::NavigationForms.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_text_size = global::NavigationForms.Droid.Resource.Dimension.mtrl_badge_text_size;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_badge_with_text_radius = global::NavigationForms.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::NavigationForms.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::NavigationForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::NavigationForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::NavigationForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::NavigationForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -6284,111 +6064,24 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::NavigationForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_text_size = global::NavigationForms.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_btn_z = global::NavigationForms.Droid.Resource.Dimension.mtrl_btn_z;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_action_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_action_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_action_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_bottom_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_content_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_content_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_days_of_week_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_corner = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_day_corner;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_day_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_today_stroke = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_day_width = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_day_width;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_content_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_text_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_landscape_header_width = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_navigation_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_corner = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_year_corner;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_year_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_calendar_year_width = global::NavigationForms.Droid.Resource.Dimension.mtrl_calendar_year_width;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_checked_icon_margin = global::NavigationForms.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_checked_icon_size = global::NavigationForms.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_corner_radius = global::NavigationForms.Droid.Resource.Dimension.mtrl_card_corner_radius;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_dragged_z = global::NavigationForms.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_elevation = global::NavigationForms.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_card_spacing = global::NavigationForms.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_chip_pressed_translation_z = global::NavigationForms.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_chip_text_size = global::NavigationForms.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::NavigationForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::NavigationForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_corner_radius = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_elevation = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_end_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_icon_size = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_min_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_min_width = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_start_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_top_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::NavigationForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_elevation = global::NavigationForms.Droid.Resource.Dimension.mtrl_fab_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_min_touch_target = global::NavigationForms.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::NavigationForms.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_fab_translation_z_pressed = global::NavigationForms.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_default_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_large_touch_target = global::NavigationForms.Droid.Resource.Dimension.mtrl_large_touch_target;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_default_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_min_touch_target_size = global::NavigationForms.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_elevation = global::NavigationForms.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_icon_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_icon_size = global::NavigationForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::NavigationForms.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::NavigationForms.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_large_component = global::NavigationForms.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::NavigationForms.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_shape_corner_size_small_component = global::NavigationForms.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::NavigationForms.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::NavigationForms.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_snackbar_margin = global::NavigationForms.Droid.Resource.Dimension.mtrl_snackbar_margin;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_switch_thumb_elevation = global::NavigationForms.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::NavigationForms.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.mtrl_toolbar_default_height = global::NavigationForms.Droid.Resource.Dimension.mtrl_toolbar_default_height;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_action_icon_size = global::NavigationForms.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_action_text_size = global::NavigationForms.Droid.Resource.Dimension.notification_action_text_size;
@@ -6405,7 +6098,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_subtext_size = global::NavigationForms.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_top_pad = global::NavigationForms.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.notification_top_pad_large_text = global::NavigationForms.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.CommunityToolkit.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::NavigationForms.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_corner_radius = global::NavigationForms.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_horizontal_padding = global::NavigationForms.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.CommunityToolkit.Resource.Dimension.tooltip_margin = global::NavigationForms.Droid.Resource.Dimension.tooltip_margin;
@@ -6516,25 +6208,9 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Drawable.design_ic_visibility_off = global::NavigationForms.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.design_password_eye = global::NavigationForms.Droid.Resource.Drawable.design_password_eye;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.design_snackbar_background = global::NavigationForms.Droid.Resource.Drawable.design_snackbar_background;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_calendar_black_24dp = global::NavigationForms.Droid.Resource.Drawable.ic_calendar_black_24dp;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_clear_black_24dp = global::NavigationForms.Droid.Resource.Drawable.ic_clear_black_24dp;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_edit_black_24dp = global::NavigationForms.Droid.Resource.Drawable.ic_edit_black_24dp;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_keyboard_arrow_left_black_24dp = global::NavigationForms.Droid.Resource.Drawable.ic_keyboard_arrow_left_black_24dp;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_keyboard_arrow_right_black_24dp = global::NavigationForms.Droid.Resource.Drawable.ic_keyboard_arrow_right_black_24dp;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_menu_arrow_down_black_24dp = global::NavigationForms.Droid.Resource.Drawable.ic_menu_arrow_down_black_24dp;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_menu_arrow_up_black_24dp = global::NavigationForms.Droid.Resource.Drawable.ic_menu_arrow_up_black_24dp;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_checked_circle = global::NavigationForms.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_checked_black = global::NavigationForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_checked_circle = global::NavigationForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.ic_mtrl_chip_close_circle = global::NavigationForms.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_dialog_background = global::NavigationForms.Droid.Resource.Drawable.mtrl_dialog_background;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_dropdown_arrow = global::NavigationForms.Droid.Resource.Drawable.mtrl_dropdown_arrow;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_arrow_drop_down = global::NavigationForms.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_arrow_drop_up = global::NavigationForms.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_cancel = global::NavigationForms.Droid.Resource.Drawable.mtrl_ic_cancel;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_ic_error = global::NavigationForms.Droid.Resource.Drawable.mtrl_ic_error;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_popupmenu_background = global::NavigationForms.Droid.Resource.Drawable.mtrl_popupmenu_background;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_popupmenu_background_dark = global::NavigationForms.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.mtrl_tabs_default_indicator = global::NavigationForms.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.navigation_empty_icon = global::NavigationForms.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_action_background = global::NavigationForms.Droid.Resource.Drawable.notification_action_background;
@@ -6549,7 +6225,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_template_icon_low_bg = global::NavigationForms.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.notification_tile_bg = global::NavigationForms.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.notify_panel_notification_icon_bg = global::NavigationForms.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.CommunityToolkit.Resource.Drawable.test_custom_background = global::NavigationForms.Droid.Resource.Drawable.test_custom_background;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.tooltip_frame_dark = global::NavigationForms.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.CommunityToolkit.Resource.Drawable.tooltip_frame_light = global::NavigationForms.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.CommunityToolkit.Resource.Id.accessibility_action_clickable_span = global::NavigationForms.Droid.Resource.Id.accessibility_action_clickable_span;
@@ -6617,8 +6292,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.bottom = global::NavigationForms.Droid.Resource.Id.bottom;
 			global::Xamarin.CommunityToolkit.Resource.Id.bottomtab_navarea = global::NavigationForms.Droid.Resource.Id.bottomtab_navarea;
 			global::Xamarin.CommunityToolkit.Resource.Id.bottomtab_tabbar = global::NavigationForms.Droid.Resource.Id.bottomtab_tabbar;
-			global::Xamarin.CommunityToolkit.Resource.Id.BOTTOM_END = global::NavigationForms.Droid.Resource.Id.BOTTOM_END;
-			global::Xamarin.CommunityToolkit.Resource.Id.BOTTOM_START = global::NavigationForms.Droid.Resource.Id.BOTTOM_START;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_header_text = global::NavigationForms.Droid.Resource.Id.browser_actions_header_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_items = global::NavigationForms.Droid.Resource.Id.browser_actions_menu_items;
 			global::Xamarin.CommunityToolkit.Resource.Id.browser_actions_menu_item_icon = global::NavigationForms.Droid.Resource.Id.browser_actions_menu_item_icon;
@@ -6627,20 +6300,15 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.buttonPanel = global::NavigationForms.Droid.Resource.Id.buttonPanel;
 			global::Xamarin.CommunityToolkit.Resource.Id.cameratexture = global::NavigationForms.Droid.Resource.Id.cameratexture;
 			global::Xamarin.CommunityToolkit.Resource.Id.cancel_action = global::NavigationForms.Droid.Resource.Id.cancel_action;
-			global::Xamarin.CommunityToolkit.Resource.Id.cancel_button = global::NavigationForms.Droid.Resource.Id.cancel_button;
 			global::Xamarin.CommunityToolkit.Resource.Id.center = global::NavigationForms.Droid.Resource.Id.center;
 			global::Xamarin.CommunityToolkit.Resource.Id.center_horizontal = global::NavigationForms.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Id.center_vertical = global::NavigationForms.Droid.Resource.Id.center_vertical;
 			global::Xamarin.CommunityToolkit.Resource.Id.checkbox = global::NavigationForms.Droid.Resource.Id.checkbox;
 			global::Xamarin.CommunityToolkit.Resource.Id.@checked = global::NavigationForms.Droid.Resource.Id.@checked;
-			global::Xamarin.CommunityToolkit.Resource.Id.chip = global::NavigationForms.Droid.Resource.Id.chip;
-			global::Xamarin.CommunityToolkit.Resource.Id.chip_group = global::NavigationForms.Droid.Resource.Id.chip_group;
 			global::Xamarin.CommunityToolkit.Resource.Id.chronometer = global::NavigationForms.Droid.Resource.Id.chronometer;
-			global::Xamarin.CommunityToolkit.Resource.Id.clear_text = global::NavigationForms.Droid.Resource.Id.clear_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.clip_horizontal = global::NavigationForms.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Id.clip_vertical = global::NavigationForms.Droid.Resource.Id.clip_vertical;
 			global::Xamarin.CommunityToolkit.Resource.Id.collapseActionView = global::NavigationForms.Droid.Resource.Id.collapseActionView;
-			global::Xamarin.CommunityToolkit.Resource.Id.confirm_button = global::NavigationForms.Droid.Resource.Id.confirm_button;
 			global::Xamarin.CommunityToolkit.Resource.Id.container = global::NavigationForms.Droid.Resource.Id.container;
 			global::Xamarin.CommunityToolkit.Resource.Id.content = global::NavigationForms.Droid.Resource.Id.content;
 			global::Xamarin.CommunityToolkit.Resource.Id.contentPanel = global::NavigationForms.Droid.Resource.Id.contentPanel;
@@ -6648,8 +6316,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.CTRL = global::NavigationForms.Droid.Resource.Id.CTRL;
 			global::Xamarin.CommunityToolkit.Resource.Id.custom = global::NavigationForms.Droid.Resource.Id.custom;
 			global::Xamarin.CommunityToolkit.Resource.Id.customPanel = global::NavigationForms.Droid.Resource.Id.customPanel;
-			global::Xamarin.CommunityToolkit.Resource.Id.cut = global::NavigationForms.Droid.Resource.Id.cut;
-			global::Xamarin.CommunityToolkit.Resource.Id.date_picker_actions = global::NavigationForms.Droid.Resource.Id.date_picker_actions;
 			global::Xamarin.CommunityToolkit.Resource.Id.decor_content_parent = global::NavigationForms.Droid.Resource.Id.decor_content_parent;
 			global::Xamarin.CommunityToolkit.Resource.Id.default_activity_button = global::NavigationForms.Droid.Resource.Id.default_activity_button;
 			global::Xamarin.CommunityToolkit.Resource.Id.design_bottom_sheet = global::NavigationForms.Droid.Resource.Id.design_bottom_sheet;
@@ -6659,7 +6325,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.design_navigation_view = global::NavigationForms.Droid.Resource.Id.design_navigation_view;
 			global::Xamarin.CommunityToolkit.Resource.Id.dialog_button = global::NavigationForms.Droid.Resource.Id.dialog_button;
 			global::Xamarin.CommunityToolkit.Resource.Id.disableHome = global::NavigationForms.Droid.Resource.Id.disableHome;
-			global::Xamarin.CommunityToolkit.Resource.Id.dropdown_menu = global::NavigationForms.Droid.Resource.Id.dropdown_menu;
 			global::Xamarin.CommunityToolkit.Resource.Id.edit_query = global::NavigationForms.Droid.Resource.Id.edit_query;
 			global::Xamarin.CommunityToolkit.Resource.Id.end = global::NavigationForms.Droid.Resource.Id.end;
 			global::Xamarin.CommunityToolkit.Resource.Id.end_padder = global::NavigationForms.Droid.Resource.Id.end_padder;
@@ -6668,22 +6333,19 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.exitUntilCollapsed = global::NavigationForms.Droid.Resource.Id.exitUntilCollapsed;
 			global::Xamarin.CommunityToolkit.Resource.Id.expanded_menu = global::NavigationForms.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.CommunityToolkit.Resource.Id.expand_activities_button = global::NavigationForms.Droid.Resource.Id.expand_activities_button;
-			global::Xamarin.CommunityToolkit.Resource.Id.fade = global::NavigationForms.Droid.Resource.Id.fade;
 			global::Xamarin.CommunityToolkit.Resource.Id.fill = global::NavigationForms.Droid.Resource.Id.fill;
 			global::Xamarin.CommunityToolkit.Resource.Id.filled = global::NavigationForms.Droid.Resource.Id.filled;
 			global::Xamarin.CommunityToolkit.Resource.Id.fill_horizontal = global::NavigationForms.Droid.Resource.Id.fill_horizontal;
 			global::Xamarin.CommunityToolkit.Resource.Id.fill_vertical = global::NavigationForms.Droid.Resource.Id.fill_vertical;
-			global::Xamarin.CommunityToolkit.Resource.Id.filter_chip = global::NavigationForms.Droid.Resource.Id.filter_chip;
-			global::Xamarin.CommunityToolkit.Resource.Id.fitToContents = global::NavigationForms.Droid.Resource.Id.fitToContents;
 			global::Xamarin.CommunityToolkit.Resource.Id.@fixed = global::NavigationForms.Droid.Resource.Id.@fixed;
 			global::Xamarin.CommunityToolkit.Resource.Id.flyoutcontent_appbar = global::NavigationForms.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.CommunityToolkit.Resource.Id.flyoutcontent_recycler = global::NavigationForms.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.CommunityToolkit.Resource.Id.forever = global::NavigationForms.Droid.Resource.Id.forever;
 			global::Xamarin.CommunityToolkit.Resource.Id.fragment_container_view_tag = global::NavigationForms.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.CommunityToolkit.Resource.Id.FUNCTION = global::NavigationForms.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.CommunityToolkit.Resource.Id.ghost_view = global::NavigationForms.Droid.Resource.Id.ghost_view;
 			global::Xamarin.CommunityToolkit.Resource.Id.ghost_view_holder = global::NavigationForms.Droid.Resource.Id.ghost_view_holder;
 			global::Xamarin.CommunityToolkit.Resource.Id.group_divider = global::NavigationForms.Droid.Resource.Id.group_divider;
-			global::Xamarin.CommunityToolkit.Resource.Id.hideable = global::NavigationForms.Droid.Resource.Id.hideable;
 			global::Xamarin.CommunityToolkit.Resource.Id.home = global::NavigationForms.Droid.Resource.Id.home;
 			global::Xamarin.CommunityToolkit.Resource.Id.homeAsUp = global::NavigationForms.Droid.Resource.Id.homeAsUp;
 			global::Xamarin.CommunityToolkit.Resource.Id.icon = global::NavigationForms.Droid.Resource.Id.icon;
@@ -6706,43 +6368,17 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.main_viewpager = global::NavigationForms.Droid.Resource.Id.main_viewpager;
 			global::Xamarin.CommunityToolkit.Resource.Id.masked = global::NavigationForms.Droid.Resource.Id.masked;
 			global::Xamarin.CommunityToolkit.Resource.Id.media_actions = global::NavigationForms.Droid.Resource.Id.media_actions;
-			global::Xamarin.CommunityToolkit.Resource.Id.media_controller_compat_view_tag = global::NavigationForms.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Xamarin.CommunityToolkit.Resource.Id.message = global::NavigationForms.Droid.Resource.Id.message;
 			global::Xamarin.CommunityToolkit.Resource.Id.META = global::NavigationForms.Droid.Resource.Id.META;
 			global::Xamarin.CommunityToolkit.Resource.Id.middle = global::NavigationForms.Droid.Resource.Id.middle;
 			global::Xamarin.CommunityToolkit.Resource.Id.mini = global::NavigationForms.Droid.Resource.Id.mini;
-			global::Xamarin.CommunityToolkit.Resource.Id.month_grid = global::NavigationForms.Droid.Resource.Id.month_grid;
-			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_bar = global::NavigationForms.Droid.Resource.Id.month_navigation_bar;
-			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_fragment_toggle = global::NavigationForms.Droid.Resource.Id.month_navigation_fragment_toggle;
-			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_next = global::NavigationForms.Droid.Resource.Id.month_navigation_next;
-			global::Xamarin.CommunityToolkit.Resource.Id.month_navigation_previous = global::NavigationForms.Droid.Resource.Id.month_navigation_previous;
-			global::Xamarin.CommunityToolkit.Resource.Id.month_title = global::NavigationForms.Droid.Resource.Id.month_title;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_days_of_week = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_days_of_week;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_day_selector_frame = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_frame = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_frame;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_main_pane = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_main_pane;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_months = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_months;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_selection_frame = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_selection_frame;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_text_input_frame = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_text_input_frame;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_calendar_year_selector_frame = global::NavigationForms.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_card_checked_layer_id = global::NavigationForms.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_child_content_container = global::NavigationForms.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_internal_children_alpha_tag = global::NavigationForms.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_fullscreen = global::NavigationForms.Droid.Resource.Id.mtrl_picker_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header = global::NavigationForms.Droid.Resource.Id.mtrl_picker_header;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header_selection_text = global::NavigationForms.Droid.Resource.Id.mtrl_picker_header_selection_text;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header_title_and_selection = global::NavigationForms.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_header_toggle = global::NavigationForms.Droid.Resource.Id.mtrl_picker_header_toggle;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_date = global::NavigationForms.Droid.Resource.Id.mtrl_picker_text_input_date;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_range_end = global::NavigationForms.Droid.Resource.Id.mtrl_picker_text_input_range_end;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_text_input_range_start = global::NavigationForms.Droid.Resource.Id.mtrl_picker_text_input_range_start;
-			global::Xamarin.CommunityToolkit.Resource.Id.mtrl_picker_title_text = global::NavigationForms.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.multiply = global::NavigationForms.Droid.Resource.Id.multiply;
 			global::Xamarin.CommunityToolkit.Resource.Id.navigation_header_container = global::NavigationForms.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.CommunityToolkit.Resource.Id.never = global::NavigationForms.Droid.Resource.Id.never;
 			global::Xamarin.CommunityToolkit.Resource.Id.none = global::NavigationForms.Droid.Resource.Id.none;
 			global::Xamarin.CommunityToolkit.Resource.Id.normal = global::NavigationForms.Droid.Resource.Id.normal;
-			global::Xamarin.CommunityToolkit.Resource.Id.noScroll = global::NavigationForms.Droid.Resource.Id.noScroll;
 			global::Xamarin.CommunityToolkit.Resource.Id.notification_background = global::NavigationForms.Droid.Resource.Id.notification_background;
 			global::Xamarin.CommunityToolkit.Resource.Id.notification_main_column = global::NavigationForms.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.CommunityToolkit.Resource.Id.notification_main_column_container = global::NavigationForms.Droid.Resource.Id.notification_main_column_container;
@@ -6752,8 +6388,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.parallax = global::NavigationForms.Droid.Resource.Id.parallax;
 			global::Xamarin.CommunityToolkit.Resource.Id.parentPanel = global::NavigationForms.Droid.Resource.Id.parentPanel;
 			global::Xamarin.CommunityToolkit.Resource.Id.parent_matrix = global::NavigationForms.Droid.Resource.Id.parent_matrix;
-			global::Xamarin.CommunityToolkit.Resource.Id.password_toggle = global::NavigationForms.Droid.Resource.Id.password_toggle;
-			global::Xamarin.CommunityToolkit.Resource.Id.peekHeight = global::NavigationForms.Droid.Resource.Id.peekHeight;
 			global::Xamarin.CommunityToolkit.Resource.Id.pin = global::NavigationForms.Droid.Resource.Id.pin;
 			global::Xamarin.CommunityToolkit.Resource.Id.progress_circular = global::NavigationForms.Droid.Resource.Id.progress_circular;
 			global::Xamarin.CommunityToolkit.Resource.Id.progress_horizontal = global::NavigationForms.Droid.Resource.Id.progress_horizontal;
@@ -6761,10 +6395,8 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.right = global::NavigationForms.Droid.Resource.Id.right;
 			global::Xamarin.CommunityToolkit.Resource.Id.right_icon = global::NavigationForms.Droid.Resource.Id.right_icon;
 			global::Xamarin.CommunityToolkit.Resource.Id.right_side = global::NavigationForms.Droid.Resource.Id.right_side;
-			global::Xamarin.CommunityToolkit.Resource.Id.rounded = global::NavigationForms.Droid.Resource.Id.rounded;
 			global::Xamarin.CommunityToolkit.Resource.Id.save_non_transition_alpha = global::NavigationForms.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.CommunityToolkit.Resource.Id.save_overlay_view = global::NavigationForms.Droid.Resource.Id.save_overlay_view;
-			global::Xamarin.CommunityToolkit.Resource.Id.scale = global::NavigationForms.Droid.Resource.Id.scale;
 			global::Xamarin.CommunityToolkit.Resource.Id.screen = global::NavigationForms.Droid.Resource.Id.screen;
 			global::Xamarin.CommunityToolkit.Resource.Id.scroll = global::NavigationForms.Droid.Resource.Id.scroll;
 			global::Xamarin.CommunityToolkit.Resource.Id.scrollable = global::NavigationForms.Droid.Resource.Id.scrollable;
@@ -6790,8 +6422,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.showCustom = global::NavigationForms.Droid.Resource.Id.showCustom;
 			global::Xamarin.CommunityToolkit.Resource.Id.showHome = global::NavigationForms.Droid.Resource.Id.showHome;
 			global::Xamarin.CommunityToolkit.Resource.Id.showTitle = global::NavigationForms.Droid.Resource.Id.showTitle;
-			global::Xamarin.CommunityToolkit.Resource.Id.skipCollapsed = global::NavigationForms.Droid.Resource.Id.skipCollapsed;
-			global::Xamarin.CommunityToolkit.Resource.Id.slide = global::NavigationForms.Droid.Resource.Id.slide;
 			global::Xamarin.CommunityToolkit.Resource.Id.sliding_tabs = global::NavigationForms.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.CommunityToolkit.Resource.Id.smallLabel = global::NavigationForms.Droid.Resource.Id.smallLabel;
 			global::Xamarin.CommunityToolkit.Resource.Id.snackbar_action = global::NavigationForms.Droid.Resource.Id.snackbar_action;
@@ -6818,19 +6448,14 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.tag_transition_group = global::NavigationForms.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.CommunityToolkit.Resource.Id.tag_unhandled_key_event_manager = global::NavigationForms.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.CommunityToolkit.Resource.Id.tag_unhandled_key_listeners = global::NavigationForms.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Xamarin.CommunityToolkit.Resource.Id.test_checkbox_android_button_tint = global::NavigationForms.Droid.Resource.Id.test_checkbox_android_button_tint;
-			global::Xamarin.CommunityToolkit.Resource.Id.test_checkbox_app_button_tint = global::NavigationForms.Droid.Resource.Id.test_checkbox_app_button_tint;
 			global::Xamarin.CommunityToolkit.Resource.Id.text = global::NavigationForms.Droid.Resource.Id.text;
 			global::Xamarin.CommunityToolkit.Resource.Id.text2 = global::NavigationForms.Droid.Resource.Id.text2;
-			global::Xamarin.CommunityToolkit.Resource.Id.textEnd = global::NavigationForms.Droid.Resource.Id.textEnd;
 			global::Xamarin.CommunityToolkit.Resource.Id.textinput_counter = global::NavigationForms.Droid.Resource.Id.textinput_counter;
 			global::Xamarin.CommunityToolkit.Resource.Id.textinput_error = global::NavigationForms.Droid.Resource.Id.textinput_error;
 			global::Xamarin.CommunityToolkit.Resource.Id.textinput_helper_text = global::NavigationForms.Droid.Resource.Id.textinput_helper_text;
 			global::Xamarin.CommunityToolkit.Resource.Id.textSpacerNoButtons = global::NavigationForms.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.CommunityToolkit.Resource.Id.textSpacerNoTitle = global::NavigationForms.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.CommunityToolkit.Resource.Id.textStart = global::NavigationForms.Droid.Resource.Id.textStart;
-			global::Xamarin.CommunityToolkit.Resource.Id.text_input_end_icon = global::NavigationForms.Droid.Resource.Id.text_input_end_icon;
-			global::Xamarin.CommunityToolkit.Resource.Id.text_input_start_icon = global::NavigationForms.Droid.Resource.Id.text_input_start_icon;
 			global::Xamarin.CommunityToolkit.Resource.Id.time = global::NavigationForms.Droid.Resource.Id.time;
 			global::Xamarin.CommunityToolkit.Resource.Id.title = global::NavigationForms.Droid.Resource.Id.title;
 			global::Xamarin.CommunityToolkit.Resource.Id.titleDividerNoCustom = global::NavigationForms.Droid.Resource.Id.titleDividerNoCustom;
@@ -6838,8 +6463,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Id.toolbar = global::NavigationForms.Droid.Resource.Id.toolbar;
 			global::Xamarin.CommunityToolkit.Resource.Id.top = global::NavigationForms.Droid.Resource.Id.top;
 			global::Xamarin.CommunityToolkit.Resource.Id.topPanel = global::NavigationForms.Droid.Resource.Id.topPanel;
-			global::Xamarin.CommunityToolkit.Resource.Id.TOP_END = global::NavigationForms.Droid.Resource.Id.TOP_END;
-			global::Xamarin.CommunityToolkit.Resource.Id.TOP_START = global::NavigationForms.Droid.Resource.Id.TOP_START;
 			global::Xamarin.CommunityToolkit.Resource.Id.touch_outside = global::NavigationForms.Droid.Resource.Id.touch_outside;
 			global::Xamarin.CommunityToolkit.Resource.Id.transition_current_scene = global::NavigationForms.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.CommunityToolkit.Resource.Id.transition_layout_save = global::NavigationForms.Droid.Resource.Id.transition_layout_save;
@@ -6866,14 +6489,8 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Integer.design_snackbar_text_max_lines = global::NavigationForms.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xamarin.CommunityToolkit.Resource.Integer.design_tab_indicator_anim_duration_ms = global::NavigationForms.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xamarin.CommunityToolkit.Resource.Integer.hide_password_duration = global::NavigationForms.Droid.Resource.Integer.hide_password_duration;
-			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_badge_max_character_count = global::NavigationForms.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_btn_anim_delay_ms = global::NavigationForms.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_btn_anim_duration_ms = global::NavigationForms.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
-			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_calendar_header_orientation = global::NavigationForms.Droid.Resource.Integer.mtrl_calendar_header_orientation;
-			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_calendar_selection_text_lines = global::NavigationForms.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
-			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_calendar_year_selector_span = global::NavigationForms.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
-			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_card_anim_delay_ms = global::NavigationForms.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
-			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_card_anim_duration_ms = global::NavigationForms.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_chip_anim_duration = global::NavigationForms.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Xamarin.CommunityToolkit.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::NavigationForms.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.CommunityToolkit.Resource.Integer.show_password_duration = global::NavigationForms.Droid.Resource.Integer.show_password_duration;
@@ -6935,39 +6552,11 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_item_subheader = global::NavigationForms.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_menu = global::NavigationForms.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_navigation_menu_item = global::NavigationForms.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_end_icon = global::NavigationForms.Droid.Resource.Layout.design_text_input_end_icon;
-			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_start_icon = global::NavigationForms.Droid.Resource.Layout.design_text_input_start_icon;
 			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackTabbarDoNotUse = global::NavigationForms.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackToolbarDoNotUse = global::NavigationForms.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.CommunityToolkit.Resource.Layout.FlyoutContent = global::NavigationForms.Droid.Resource.Layout.FlyoutContent;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog = global::NavigationForms.Droid.Resource.Layout.mtrl_alert_dialog;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_actions = global::NavigationForms.Droid.Resource.Layout.mtrl_alert_dialog_actions;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_dialog_title = global::NavigationForms.Droid.Resource.Layout.mtrl_alert_dialog_title;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_select_dialog_item = global::NavigationForms.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::NavigationForms.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::NavigationForms.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_day = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_day;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_days_of_week = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_days_of_week;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_day_of_week = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_day_of_week;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_horizontal = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_horizontal;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_month = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_month;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_months = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_months;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_month_labeled = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_month_labeled;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_month_navigation = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_month_navigation;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_vertical = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_vertical;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_calendar_year = global::NavigationForms.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_layout_snackbar = global::NavigationForms.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_layout_snackbar_include = global::NavigationForms.Droid.Resource.Layout.mtrl_layout_snackbar_include;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_actions = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_actions;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_dialog = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_dialog;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_fullscreen = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_dialog = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_header_dialog;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_fullscreen = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_selection_text = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_header_selection_text;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_title_text = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_header_title_text;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_header_toggle = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_header_toggle;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_text_input_date = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_text_input_date;
-			global::Xamarin.CommunityToolkit.Resource.Layout.mtrl_picker_text_input_date_range = global::NavigationForms.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Xamarin.CommunityToolkit.Resource.Layout.notification_action = global::NavigationForms.Droid.Resource.Layout.notification_action;
 			global::Xamarin.CommunityToolkit.Resource.Layout.notification_action_tombstone = global::NavigationForms.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.CommunityToolkit.Resource.Layout.notification_media_action = global::NavigationForms.Droid.Resource.Layout.notification_media_action;
@@ -6990,20 +6579,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Layout.ShellContent = global::NavigationForms.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.CommunityToolkit.Resource.Layout.support_simple_spinner_dropdown_item = global::NavigationForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.CommunityToolkit.Resource.Layout.Tabbar = global::NavigationForms.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.CommunityToolkit.Resource.Layout.test_action_chip = global::NavigationForms.Droid.Resource.Layout.test_action_chip;
-			global::Xamarin.CommunityToolkit.Resource.Layout.test_design_checkbox = global::NavigationForms.Droid.Resource.Layout.test_design_checkbox;
-			global::Xamarin.CommunityToolkit.Resource.Layout.test_reflow_chipgroup = global::NavigationForms.Droid.Resource.Layout.test_reflow_chipgroup;
-			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar = global::NavigationForms.Droid.Resource.Layout.test_toolbar;
-			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar_custom_background = global::NavigationForms.Droid.Resource.Layout.test_toolbar_custom_background;
-			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar_elevation = global::NavigationForms.Droid.Resource.Layout.test_toolbar_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Layout.test_toolbar_surface = global::NavigationForms.Droid.Resource.Layout.test_toolbar_surface;
-			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_without_line_height = global::NavigationForms.Droid.Resource.Layout.text_view_without_line_height;
-			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_appearance = global::NavigationForms.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
-			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_layout = global::NavigationForms.Droid.Resource.Layout.text_view_with_line_height_from_layout;
-			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_style = global::NavigationForms.Droid.Resource.Layout.text_view_with_line_height_from_style;
-			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_theme_line_height = global::NavigationForms.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.CommunityToolkit.Resource.Layout.Toolbar = global::NavigationForms.Droid.Resource.Layout.Toolbar;
-			global::Xamarin.CommunityToolkit.Resource.Plurals.mtrl_badge_content_description = global::NavigationForms.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.abc_action_bar_home_description = global::NavigationForms.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.CommunityToolkit.Resource.String.abc_action_bar_up_description = global::NavigationForms.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.CommunityToolkit.Resource.String.abc_action_menu_overflow_description = global::NavigationForms.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -7034,54 +6610,11 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.String.appbar_scrolling_view_behavior = global::NavigationForms.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.CommunityToolkit.Resource.String.bottom_sheet_behavior = global::NavigationForms.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.CommunityToolkit.Resource.String.character_counter_content_description = global::NavigationForms.Droid.Resource.String.character_counter_content_description;
-			global::Xamarin.CommunityToolkit.Resource.String.character_counter_overflowed_content_description = global::NavigationForms.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.character_counter_pattern = global::NavigationForms.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.CommunityToolkit.Resource.String.chip_text = global::NavigationForms.Droid.Resource.String.chip_text;
-			global::Xamarin.CommunityToolkit.Resource.String.clear_text_end_icon_content_description = global::NavigationForms.Droid.Resource.String.clear_text_end_icon_content_description;
-			global::Xamarin.CommunityToolkit.Resource.String.copy_toast_msg = global::NavigationForms.Droid.Resource.String.copy_toast_msg;
-			global::Xamarin.CommunityToolkit.Resource.String.error_icon_content_description = global::NavigationForms.Droid.Resource.String.error_icon_content_description;
-			global::Xamarin.CommunityToolkit.Resource.String.exposed_dropdown_menu_content_description = global::NavigationForms.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.fab_transformation_scrim_behavior = global::NavigationForms.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Xamarin.CommunityToolkit.Resource.String.fab_transformation_sheet_behavior = global::NavigationForms.Droid.Resource.String.fab_transformation_sheet_behavior;
-			global::Xamarin.CommunityToolkit.Resource.String.fallback_menu_item_copy_link = global::NavigationForms.Droid.Resource.String.fallback_menu_item_copy_link;
-			global::Xamarin.CommunityToolkit.Resource.String.fallback_menu_item_open_in_browser = global::NavigationForms.Droid.Resource.String.fallback_menu_item_open_in_browser;
-			global::Xamarin.CommunityToolkit.Resource.String.fallback_menu_item_share_link = global::NavigationForms.Droid.Resource.String.fallback_menu_item_share_link;
 			global::Xamarin.CommunityToolkit.Resource.String.hide_bottom_view_on_scroll_behavior = global::NavigationForms.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
-			global::Xamarin.CommunityToolkit.Resource.String.icon_content_description = global::NavigationForms.Droid.Resource.String.icon_content_description;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_badge_numberless_content_description = global::NavigationForms.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.mtrl_chip_close_icon_content_description = global::NavigationForms.Droid.Resource.String.mtrl_chip_close_icon_content_description;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_exceed_max_badge_number_suffix = global::NavigationForms.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_a11y_next_month = global::NavigationForms.Droid.Resource.String.mtrl_picker_a11y_next_month;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_a11y_prev_month = global::NavigationForms.Droid.Resource.String.mtrl_picker_a11y_prev_month;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_announce_current_selection = global::NavigationForms.Droid.Resource.String.mtrl_picker_announce_current_selection;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_cancel = global::NavigationForms.Droid.Resource.String.mtrl_picker_cancel;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_confirm = global::NavigationForms.Droid.Resource.String.mtrl_picker_confirm;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_date_header_selected = global::NavigationForms.Droid.Resource.String.mtrl_picker_date_header_selected;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_date_header_title = global::NavigationForms.Droid.Resource.String.mtrl_picker_date_header_title;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_date_header_unselected = global::NavigationForms.Droid.Resource.String.mtrl_picker_date_header_unselected;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_day_of_week_column_header = global::NavigationForms.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_format = global::NavigationForms.Droid.Resource.String.mtrl_picker_invalid_format;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_format_example = global::NavigationForms.Droid.Resource.String.mtrl_picker_invalid_format_example;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_format_use = global::NavigationForms.Droid.Resource.String.mtrl_picker_invalid_format_use;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_invalid_range = global::NavigationForms.Droid.Resource.String.mtrl_picker_invalid_range;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_navigate_to_year_description = global::NavigationForms.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_out_of_range = global::NavigationForms.Droid.Resource.String.mtrl_picker_out_of_range;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_only_end_selected = global::NavigationForms.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_only_start_selected = global::NavigationForms.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_selected = global::NavigationForms.Droid.Resource.String.mtrl_picker_range_header_selected;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_title = global::NavigationForms.Droid.Resource.String.mtrl_picker_range_header_title;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_range_header_unselected = global::NavigationForms.Droid.Resource.String.mtrl_picker_range_header_unselected;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_save = global::NavigationForms.Droid.Resource.String.mtrl_picker_save;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_date_hint = global::NavigationForms.Droid.Resource.String.mtrl_picker_text_input_date_hint;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::NavigationForms.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::NavigationForms.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_day_abbr = global::NavigationForms.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_month_abbr = global::NavigationForms.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_text_input_year_abbr = global::NavigationForms.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::NavigationForms.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_day_selection = global::NavigationForms.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::NavigationForms.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
-			global::Xamarin.CommunityToolkit.Resource.String.mtrl_picker_toggle_to_year_selection = global::NavigationForms.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
 			global::Xamarin.CommunityToolkit.Resource.String.overflow_tab_title = global::NavigationForms.Droid.Resource.String.overflow_tab_title;
 			global::Xamarin.CommunityToolkit.Resource.String.password_toggle_content_description = global::NavigationForms.Droid.Resource.String.password_toggle_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.path_password_eye = global::NavigationForms.Droid.Resource.String.path_password_eye;
@@ -7096,7 +6629,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Animation_AppCompat_DropDownUp = global::NavigationForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.CommunityToolkit.Resource.Style.Animation_AppCompat_Tooltip = global::NavigationForms.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.CommunityToolkit.Resource.Style.Animation_Design_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.AppCompatDialogStyle = global::NavigationForms.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_AlertDialog_AppCompat = global::NavigationForms.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_AlertDialog_AppCompat_Light = global::NavigationForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
@@ -7106,9 +6638,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_CardView = global::NavigationForms.Droid.Resource.Style.Base_CardView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::NavigationForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_DialogWindowTitle_AppCompat = global::NavigationForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::NavigationForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::NavigationForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::NavigationForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -7154,10 +6683,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::NavigationForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -7170,7 +6695,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::NavigationForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::NavigationForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::NavigationForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat = global::NavigationForms.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::NavigationForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_AppCompat_Dialog = global::NavigationForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -7191,7 +6715,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -7201,21 +6724,17 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::NavigationForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::NavigationForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::NavigationForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::NavigationForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::NavigationForms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_AppCompat = global::NavigationForms.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::NavigationForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
@@ -7297,33 +6816,15 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Toolbar = global::NavigationForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::NavigationForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_Design_TabLayout = global::NavigationForms.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_Chip = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
-			global::Xamarin.CommunityToolkit.Resource.Style.Base_Widget_MaterialComponents_TextView = global::NavigationForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Xamarin.CommunityToolkit.Resource.Style.CardView = global::NavigationForms.Droid.Resource.Style.CardView;
 			global::Xamarin.CommunityToolkit.Resource.Style.CardView_Dark = global::NavigationForms.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.CommunityToolkit.Resource.Style.CardView_Light = global::NavigationForms.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.CommunityToolkit.Resource.Style.collectionViewTheme = global::NavigationForms.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.CommunityToolkit.Resource.Style.EmptyTheme = global::NavigationForms.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.CommunityToolkit.Resource.Style.MainTheme = global::NavigationForms.Droid.Resource.Style.MainTheme;
 			global::Xamarin.CommunityToolkit.Resource.Style.MainTheme_Base = global::NavigationForms.Droid.Resource.Style.MainTheme_Base;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
-			global::Xamarin.CommunityToolkit.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::NavigationForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Xamarin.CommunityToolkit.Resource.Style.Platform_AppCompat = global::NavigationForms.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.Platform_AppCompat_Light = global::NavigationForms.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.CommunityToolkit.Resource.Style.Platform_MaterialComponents = global::NavigationForms.Droid.Resource.Style.Platform_MaterialComponents;
@@ -7357,37 +6858,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::NavigationForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.CommunityToolkit.Resource.Style.scrollViewScrollBars = global::NavigationForms.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.CommunityToolkit.Resource.Style.scrollViewTheme = global::NavigationForms.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_Cut = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::NavigationForms.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents = global::NavigationForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::NavigationForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::NavigationForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::NavigationForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
-			global::Xamarin.CommunityToolkit.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::NavigationForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
-			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithLineHeight = global::NavigationForms.Droid.Resource.Style.TestStyleWithLineHeight;
-			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithLineHeightAppearance = global::NavigationForms.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithoutLineHeight = global::NavigationForms.Droid.Resource.Style.TestStyleWithoutLineHeight;
-			global::Xamarin.CommunityToolkit.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::NavigationForms.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
-			global::Xamarin.CommunityToolkit.Resource.Style.TestThemeWithLineHeight = global::NavigationForms.Droid.Resource.Style.TestThemeWithLineHeight;
-			global::Xamarin.CommunityToolkit.Resource.Style.TestThemeWithLineHeightDisabled = global::NavigationForms.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
-			global::Xamarin.CommunityToolkit.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::NavigationForms.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.CommunityToolkit.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::NavigationForms.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
-			global::Xamarin.CommunityToolkit.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::NavigationForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.CommunityToolkit.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::NavigationForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.CommunityToolkit.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::NavigationForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat = global::NavigationForms.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Body1 = global::NavigationForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_AppCompat_Body2 = global::NavigationForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -7454,7 +6924,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Hint = global::NavigationForms.Droid.Resource.Style.TextAppearance_Design_Hint;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Snackbar_Message = global::NavigationForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_Design_Tab = global::NavigationForms.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Badge = global::NavigationForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::NavigationForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::NavigationForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Xamarin.CommunityToolkit.Resource.Style.TextAppearance_MaterialComponents_Button = global::NavigationForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -7481,42 +6950,18 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_AppCompat_Light = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
-			global::Xamarin.CommunityToolkit.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::NavigationForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_CompactMenu = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DayNight = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -7530,7 +6975,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Empty = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_AppCompat_Light_Dialog = global::NavigationForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -7549,33 +6993,11 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_CompactMenu = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -7583,13 +7005,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
-			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Theme_MaterialComponents_NoActionBar = global::NavigationForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -7679,25 +7095,10 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_Snackbar = global::NavigationForms.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_TabLayout = global::NavigationForms.Droid.Resource.Style.Widget_Design_TabLayout;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Design_TextInputLayout = global::NavigationForms.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Badge = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomSheet = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_Icon = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -7705,72 +7106,31 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CardView = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_CardView;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ChipGroup = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Action = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_NavigationView = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Snackbar = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TabLayout = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_TextView = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
-			global::Xamarin.CommunityToolkit.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::NavigationForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
 			global::Xamarin.CommunityToolkit.Resource.Style.Widget_Support_CoordinatorLayout = global::NavigationForms.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBar = global::NavigationForms.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ActionBarLayout = global::NavigationForms.Droid.Resource.Styleable.ActionBarLayout;
@@ -7856,8 +7216,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::NavigationForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::NavigationForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_liftOnScroll = global::NavigationForms.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::NavigationForms.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.AppBarLayout_statusBarForeground = global::NavigationForms.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView = global::NavigationForms.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView_android_src = global::NavigationForms.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatImageView_srcCompat = global::NavigationForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -8024,46 +7382,29 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::NavigationForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::NavigationForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.AppCompatTheme_windowNoTitle = global::NavigationForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge = global::NavigationForms.Droid.Resource.Styleable.Badge;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_backgroundColor = global::NavigationForms.Droid.Resource.Styleable.Badge_backgroundColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_badgeGravity = global::NavigationForms.Droid.Resource.Styleable.Badge_badgeGravity;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_badgeTextColor = global::NavigationForms.Droid.Resource.Styleable.Badge_badgeTextColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_maxCharacterCount = global::NavigationForms.Droid.Resource.Styleable.Badge_maxCharacterCount;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Badge_number = global::NavigationForms.Droid.Resource.Styleable.Badge_number;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_backgroundTint = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_elevation = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabAnimationMode = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabCradleMargin = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomAppBar_hideOnScroll = global::NavigationForms.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_backgroundTint = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_elevation = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemBackground = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemIconSize = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemIconTint = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemRippleColor = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_itemTextColor = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomNavigationView_menu = global::NavigationForms.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ButtonBarLayout = global::NavigationForms.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ButtonBarLayout_allowStacking = global::NavigationForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.CardView = global::NavigationForms.Droid.Resource.Styleable.CardView;
@@ -8093,7 +7434,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_maxWidth = global::NavigationForms.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_text = global::NavigationForms.Droid.Resource.Styleable.Chip_android_text;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textAppearance = global::NavigationForms.Droid.Resource.Styleable.Chip_android_textAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_android_textColor = global::NavigationForms.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIcon = global::NavigationForms.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIconEnabled = global::NavigationForms.Droid.Resource.Styleable.Chip_checkedIconEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_checkedIconVisible = global::NavigationForms.Droid.Resource.Styleable.Chip_checkedIconVisible;
@@ -8106,11 +7446,9 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipIconTint = global::NavigationForms.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipIconVisible = global::NavigationForms.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipMinHeight = global::NavigationForms.Droid.Resource.Styleable.Chip_chipMinHeight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipMinTouchTargetSize = global::NavigationForms.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipStartPadding = global::NavigationForms.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipStrokeColor = global::NavigationForms.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipStrokeWidth = global::NavigationForms.Droid.Resource.Styleable.Chip_chipStrokeWidth;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_chipSurfaceColor = global::NavigationForms.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIcon = global::NavigationForms.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconEnabled = global::NavigationForms.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconEndPadding = global::NavigationForms.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -8118,13 +7456,10 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconStartPadding = global::NavigationForms.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconTint = global::NavigationForms.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_closeIconVisible = global::NavigationForms.Droid.Resource.Styleable.Chip_closeIconVisible;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::NavigationForms.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_hideMotionSpec = global::NavigationForms.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_iconEndPadding = global::NavigationForms.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_iconStartPadding = global::NavigationForms.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_rippleColor = global::NavigationForms.Droid.Resource.Styleable.Chip_rippleColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_shapeAppearance = global::NavigationForms.Droid.Resource.Styleable.Chip_shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_showMotionSpec = global::NavigationForms.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_textEndPadding = global::NavigationForms.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Chip_textStartPadding = global::NavigationForms.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -8177,17 +7512,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::NavigationForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_spinBars = global::NavigationForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerArrowToggle_thickness = global::NavigationForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerLayout = global::NavigationForms.Droid.Resource.Styleable.DrawerLayout;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.DrawerLayout_elevation = global::NavigationForms.Droid.Resource.Styleable.DrawerLayout_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::NavigationForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_backgroundTint = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
@@ -8195,7 +7519,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_borderWidth = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_elevation = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_fabCustomSize = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_fabSize = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -8203,8 +7526,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_maxImageSize = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_rippleColor = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_shapeAppearance = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_showMotionSpec = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FloatingActionButton_useCompatPadding = global::NavigationForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.FlowLayout = global::NavigationForms.Droid.Resource.Styleable.FlowLayout;
@@ -8275,22 +7596,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow = global::NavigationForms.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::NavigationForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::NavigationForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialog;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialogTheme;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::NavigationForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton = global::NavigationForms.Droid.Resource.Styleable.MaterialButton;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButtonToggleGroup = global::NavigationForms.Droid.Resource.Styleable.MaterialButtonToggleGroup;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::NavigationForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::NavigationForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_checkable = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_insetBottom = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_insetLeft = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_android_insetRight = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -8298,7 +7604,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_backgroundTint = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_backgroundTintMode = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_cornerRadius = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_cornerRadius;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_elevation = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_icon = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconGravity = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconPadding = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -8306,57 +7611,11 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconTint = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_iconTintMode = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_rippleColor = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_rippleColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_shapeAppearance = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_strokeColor = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialButton_strokeWidth = global::NavigationForms.Droid.Resource.Styleable.MaterialButton_strokeWidth;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_rangeFillColor = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::NavigationForms.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_android_checkable = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_android_checkable;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_cardForegroundColor = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIcon = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_checkedIconTint = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_rippleColor = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_rippleColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_shapeAppearance = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_state_dragged = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_strokeColor = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCardView_strokeWidth = global::NavigationForms.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCheckBox = global::NavigationForms.Droid.Resource.Styleable.MaterialCheckBox;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCheckBox_buttonTint = global::NavigationForms.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::NavigationForms.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialRadioButton = global::NavigationForms.Droid.Resource.Styleable.MaterialRadioButton;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::NavigationForms.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape = global::NavigationForms.Droid.Resource.Styleable.MaterialShape;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape_shapeAppearance = global::NavigationForms.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance = global::NavigationForms.Droid.Resource.Styleable.MaterialTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::NavigationForms.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextAppearance_lineHeight = global::NavigationForms.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView = global::NavigationForms.Droid.Resource.Styleable.MaterialTextView;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_android_lineHeight = global::NavigationForms.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_android_textAppearance = global::NavigationForms.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.MaterialTextView_lineHeight = global::NavigationForms.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup = global::NavigationForms.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_checkableBehavior = global::NavigationForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.MenuGroup_android_enabled = global::NavigationForms.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -8407,16 +7666,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemBackground = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemHorizontalPadding = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemIconPadding = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemIconPadding;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemIconSize = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemIconTint = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemMaxLines = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemMaxLines;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeAppearance = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeFillColor = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetStart = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemShapeInsetTop = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemTextAppearance = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_itemTextColor = global::NavigationForms.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.NavigationView_menu = global::NavigationForms.Droid.Resource.Styleable.NavigationView_menu;
@@ -8466,23 +7716,9 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_submitBackground = global::NavigationForms.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_suggestionRowLayout = global::NavigationForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SearchView_voiceIcon = global::NavigationForms.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamily = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSize = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::NavigationForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Snackbar = global::NavigationForms.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout = global::NavigationForms.Droid.Resource.Styleable.SnackbarLayout;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::NavigationForms.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_android_maxWidth = global::NavigationForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_animationMode = global::NavigationForms.Droid.Resource.Styleable.SnackbarLayout_animationMode;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::NavigationForms.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_elevation = global::NavigationForms.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::NavigationForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.Snackbar_snackbarButtonStyle = global::NavigationForms.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
@@ -8502,8 +7738,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::NavigationForms.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_variablePadding = global::NavigationForms.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.StateListDrawable_android_visible = global::NavigationForms.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.SwipeRefreshLayout = global::NavigationForms.Droid.Resource.Styleable.SwipeRefreshLayout;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::NavigationForms.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat = global::NavigationForms.Droid.Resource.Styleable.SwitchCompat;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_android_textOff = global::NavigationForms.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_android_textOn = global::NavigationForms.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -8519,8 +7753,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_track = global::NavigationForms.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_trackTint = global::NavigationForms.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchCompat_trackTintMode = global::NavigationForms.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchMaterial = global::NavigationForms.Droid.Resource.Styleable.SwitchMaterial;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::NavigationForms.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabItem = global::NavigationForms.Droid.Resource.Styleable.TabItem;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabItem_android_icon = global::NavigationForms.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TabItem_android_layout = global::NavigationForms.Droid.Resource.Styleable.TabItem_android_layout;
@@ -8580,45 +7812,23 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxStrokeColor = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterEnabled = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterMaxLength = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterTextAppearance = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_counterTextColor = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconCheckable = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconContentDescription = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconDrawable = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconMode = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_endIconMode;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconTint = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_endIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_endIconTintMode = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorEnabled = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorIconDrawable = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorIconTint = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorIconTintMode = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorTextAppearance = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_errorTextColor = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperText = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextEnabled = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_helperTextTextColor = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintEnabled = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintTextAppearance = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_hintTextColor = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleTint = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_shapeAppearance = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconCheckable = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconContentDescription = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconDrawable = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconTint = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_startIconTint;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.TextInputLayout_startIconTintMode = global::NavigationForms.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ThemeEnforcement = global::NavigationForms.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::NavigationForms.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::NavigationForms.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -8659,8 +7869,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper_android_background = global::NavigationForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::NavigationForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::NavigationForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewPager2 = global::NavigationForms.Droid.Resource.Styleable.ViewPager2;
-			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewPager2_android_orientation = global::NavigationForms.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewStubCompat = global::NavigationForms.Droid.Resource.Styleable.ViewStubCompat;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewStubCompat_android_id = global::NavigationForms.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NavigationForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -8670,11 +7878,6 @@ namespace NavigationForms.Droid
 			global::Xamarin.CommunityToolkit.Resource.Styleable.View_paddingEnd = global::NavigationForms.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.View_paddingStart = global::NavigationForms.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.CommunityToolkit.Resource.Styleable.View_theme = global::NavigationForms.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.CommunityToolkit.Resource.Xml.image_share_filepaths = global::NavigationForms.Droid.Resource.Xml.image_share_filepaths;
-			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge = global::NavigationForms.Droid.Resource.Xml.standalone_badge;
-			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge_gravity_bottom_end = global::NavigationForms.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
-			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge_gravity_bottom_start = global::NavigationForms.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
-			global::Xamarin.CommunityToolkit.Resource.Xml.standalone_badge_gravity_top_start = global::NavigationForms.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::NavigationForms.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::NavigationForms.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::NavigationForms.Droid.Resource.Attribute.fontProviderAuthority;
@@ -10330,6 +9533,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.Forms.Material.Android.Resource.Id.fitToContents = global::NavigationForms.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Material.Android.Resource.Id.@fixed = global::NavigationForms.Droid.Resource.Id.@fixed;
 			global::Xamarin.Forms.Material.Android.Resource.Id.flyoutcontent_appbar = global::NavigationForms.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Material.Android.Resource.Id.flyoutcontent_recycler = global::NavigationForms.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Material.Android.Resource.Id.forever = global::NavigationForms.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Material.Android.Resource.Id.fragment_container_view_tag = global::NavigationForms.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Material.Android.Resource.Id.FUNCTION = global::NavigationForms.Droid.Resource.Id.FUNCTION;
@@ -13788,6 +12992,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fitToContents = global::NavigationForms.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::NavigationForms.Droid.Resource.Id.@fixed;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::NavigationForms.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::NavigationForms.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::NavigationForms.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fragment_container_view_tag = global::NavigationForms.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::NavigationForms.Droid.Resource.Id.FUNCTION;
@@ -17235,6 +16440,7 @@ namespace NavigationForms.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.fitToContents = global::NavigationForms.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Resource.Id.@fixed = global::NavigationForms.Droid.Resource.Id.@fixed;
 			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_appbar = global::NavigationForms.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_recycler = global::NavigationForms.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Resource.Id.forever = global::NavigationForms.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Resource.Id.fragment_container_view_tag = global::NavigationForms.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Resource.Id.FUNCTION = global::NavigationForms.Droid.Resource.Id.FUNCTION;
@@ -23819,505 +23025,508 @@ namespace NavigationForms.Droid
 			public const int flyoutcontent_appbar = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int forever = 2131230852;
+			public const int flyoutcontent_recycler = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int fragment_container_view_tag = 2131230853;
+			public const int forever = 2131230853;
+			
+			// aapt resource value: 0x7F080086
+			public const int fragment_container_view_tag = 2131230854;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F080086
-			public const int ghost_view = 2131230854;
-			
 			// aapt resource value: 0x7F080087
-			public const int ghost_view_holder = 2131230855;
+			public const int ghost_view = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int group_divider = 2131230856;
+			public const int ghost_view_holder = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int hardware = 2131230857;
+			public const int group_divider = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int hideable = 2131230858;
+			public const int hardware = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int home = 2131230859;
+			public const int hideable = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int homeAsUp = 2131230860;
+			public const int home = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int icon = 2131230861;
+			public const int homeAsUp = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int icon_group = 2131230862;
+			public const int icon = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int ifRoom = 2131230863;
+			public const int icon_group = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int image = 2131230864;
+			public const int ifRoom = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int info = 2131230865;
+			public const int image = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int italic = 2131230866;
+			public const int info = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int item_touch_helper_previous_elevation = 2131230867;
+			public const int italic = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int labeled = 2131230868;
+			public const int item_touch_helper_previous_elevation = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int largeLabel = 2131230869;
+			public const int labeled = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int left = 2131230870;
+			public const int largeLabel = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int line1 = 2131230871;
+			public const int left = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int line3 = 2131230872;
+			public const int line1 = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int listMode = 2131230873;
+			public const int line3 = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int list_item = 2131230874;
+			public const int listMode = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int lottie_layer_name = 2131230875;
+			public const int list_item = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int main_appbar = 2131230876;
+			public const int lottie_layer_name = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int main_tablayout = 2131230877;
+			public const int main_appbar = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int main_toolbar = 2131230878;
+			public const int main_tablayout = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int main_viewpager = 2131230879;
+			public const int main_toolbar = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int masked = 2131230880;
+			public const int main_viewpager = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int materialformsedittext = 2131230881;
+			public const int masked = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int media_actions = 2131230882;
+			public const int materialformsedittext = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int media_controller_compat_view_tag = 2131230883;
+			public const int media_actions = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int message = 2131230884;
+			public const int media_controller_compat_view_tag = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int message = 2131230885;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F0800A5
-			public const int middle = 2131230885;
-			
 			// aapt resource value: 0x7F0800A6
-			public const int mini = 2131230886;
+			public const int middle = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int month_grid = 2131230887;
+			public const int mini = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int month_navigation_bar = 2131230888;
+			public const int month_grid = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int month_navigation_fragment_toggle = 2131230889;
+			public const int month_navigation_bar = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int month_navigation_next = 2131230890;
+			public const int month_navigation_fragment_toggle = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int month_navigation_previous = 2131230891;
+			public const int month_navigation_next = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int month_title = 2131230892;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int mtrl_calendar_days_of_week = 2131230894;
+			public const int month_navigation_previous = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int mtrl_calendar_day_selector_frame = 2131230893;
+			public const int month_title = 2131230893;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int mtrl_calendar_frame = 2131230895;
+			public const int mtrl_calendar_days_of_week = 2131230895;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int mtrl_calendar_day_selector_frame = 2131230894;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int mtrl_calendar_main_pane = 2131230896;
+			public const int mtrl_calendar_frame = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int mtrl_calendar_months = 2131230897;
+			public const int mtrl_calendar_main_pane = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int mtrl_calendar_selection_frame = 2131230898;
+			public const int mtrl_calendar_months = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int mtrl_calendar_text_input_frame = 2131230899;
+			public const int mtrl_calendar_selection_frame = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int mtrl_calendar_year_selector_frame = 2131230900;
+			public const int mtrl_calendar_text_input_frame = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int mtrl_card_checked_layer_id = 2131230901;
+			public const int mtrl_calendar_year_selector_frame = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int mtrl_child_content_container = 2131230902;
+			public const int mtrl_card_checked_layer_id = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int mtrl_internal_children_alpha_tag = 2131230903;
+			public const int mtrl_child_content_container = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int mtrl_picker_fullscreen = 2131230904;
+			public const int mtrl_internal_children_alpha_tag = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int mtrl_picker_header = 2131230905;
+			public const int mtrl_picker_fullscreen = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int mtrl_picker_header_selection_text = 2131230906;
+			public const int mtrl_picker_header = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int mtrl_picker_header_title_and_selection = 2131230907;
+			public const int mtrl_picker_header_selection_text = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int mtrl_picker_header_toggle = 2131230908;
+			public const int mtrl_picker_header_title_and_selection = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int mtrl_picker_text_input_date = 2131230909;
+			public const int mtrl_picker_header_toggle = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int mtrl_picker_text_input_range_end = 2131230910;
+			public const int mtrl_picker_text_input_date = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int mtrl_picker_text_input_range_start = 2131230911;
+			public const int mtrl_picker_text_input_range_end = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int mtrl_picker_title_text = 2131230912;
+			public const int mtrl_picker_text_input_range_start = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int multiply = 2131230913;
+			public const int mtrl_picker_title_text = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int navigation_header_container = 2131230914;
+			public const int multiply = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int never = 2131230915;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int none = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int normal = 2131230918;
+			public const int navigation_header_container = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int noScroll = 2131230916;
+			public const int never = 2131230916;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int none = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int notification_background = 2131230919;
+			public const int normal = 2131230919;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int noScroll = 2131230917;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int notification_main_column = 2131230920;
+			public const int notification_background = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int notification_main_column_container = 2131230921;
+			public const int notification_main_column = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int off = 2131230922;
+			public const int notification_main_column_container = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int on = 2131230923;
+			public const int off = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int outline = 2131230924;
+			public const int on = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int parallax = 2131230925;
+			public const int outline = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int parentPanel = 2131230926;
+			public const int parallax = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int parent_matrix = 2131230927;
+			public const int parentPanel = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int password_toggle = 2131230928;
+			public const int parent_matrix = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int peekHeight = 2131230929;
+			public const int password_toggle = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int pin = 2131230930;
+			public const int peekHeight = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int progress_circular = 2131230931;
+			public const int pin = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int progress_horizontal = 2131230932;
+			public const int progress_circular = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int radio = 2131230933;
+			public const int progress_horizontal = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int restart = 2131230934;
+			public const int radio = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int reverse = 2131230935;
+			public const int restart = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int right = 2131230936;
+			public const int reverse = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int right_icon = 2131230937;
+			public const int right = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int right_side = 2131230938;
+			public const int right_icon = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int rounded = 2131230939;
+			public const int right_side = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int save_non_transition_alpha = 2131230940;
+			public const int rounded = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int save_overlay_view = 2131230941;
+			public const int save_non_transition_alpha = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int scale = 2131230942;
+			public const int save_overlay_view = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int screen = 2131230943;
+			public const int scale = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int scroll = 2131230944;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int scrollable = 2131230948;
+			public const int screen = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int scrollIndicatorDown = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int scrollIndicatorUp = 2131230946;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int scrollView = 2131230947;
+			public const int scroll = 2131230945;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int search_badge = 2131230949;
+			public const int scrollable = 2131230949;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int scrollIndicatorDown = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int scrollIndicatorUp = 2131230947;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int scrollView = 2131230948;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int search_bar = 2131230950;
+			public const int search_badge = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int search_button = 2131230951;
+			public const int search_bar = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int search_close_btn = 2131230952;
+			public const int search_button = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int search_edit_frame = 2131230953;
+			public const int search_close_btn = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int search_go_btn = 2131230954;
+			public const int search_edit_frame = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int search_mag_icon = 2131230955;
+			public const int search_go_btn = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int search_plate = 2131230956;
+			public const int search_mag_icon = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int search_src_text = 2131230957;
+			public const int search_plate = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int search_voice_btn = 2131230958;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int selected = 2131230960;
+			public const int search_src_text = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int select_dialog_listview = 2131230959;
+			public const int search_voice_btn = 2131230959;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int shellcontent_appbar = 2131230961;
+			public const int selected = 2131230961;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int select_dialog_listview = 2131230960;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int shellcontent_toolbar = 2131230962;
+			public const int shellcontent_appbar = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int shellcontent_toolbar = 2131230963;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHIFT = 2131230726;
 			
-			// aapt resource value: 0x7F0800F3
-			public const int shortcut = 2131230963;
-			
 			// aapt resource value: 0x7F0800F4
-			public const int showCustom = 2131230964;
+			public const int shortcut = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int showHome = 2131230965;
+			public const int showCustom = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int showTitle = 2131230966;
+			public const int showHome = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int skipCollapsed = 2131230967;
+			public const int showTitle = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int slide = 2131230968;
+			public const int skipCollapsed = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int sliding_tabs = 2131230969;
+			public const int slide = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int smallLabel = 2131230970;
+			public const int sliding_tabs = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int snackbar_action = 2131230971;
+			public const int smallLabel = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int snackbar_text = 2131230972;
+			public const int snackbar_action = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int snap = 2131230973;
+			public const int snackbar_text = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int snapMargins = 2131230974;
+			public const int snap = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int software = 2131230975;
+			public const int snapMargins = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int spacer = 2131230976;
+			public const int software = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int split_action_bar = 2131230977;
+			public const int spacer = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int src_atop = 2131230978;
+			public const int split_action_bar = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int src_in = 2131230979;
+			public const int src_atop = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int src_over = 2131230980;
+			public const int src_in = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int start = 2131230981;
+			public const int src_over = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int status_bar_latest_event_content = 2131230982;
+			public const int start = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int stretch = 2131230983;
+			public const int status_bar_latest_event_content = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int submenuarrow = 2131230984;
+			public const int stretch = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int submit_area = 2131230985;
+			public const int submenuarrow = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int submit_area = 2131230986;
 			
 			// aapt resource value: 0x7F080007
 			public const int SYM = 2131230727;
 			
-			// aapt resource value: 0x7F08010A
-			public const int tabMode = 2131230986;
-			
 			// aapt resource value: 0x7F08010B
-			public const int tag_accessibility_actions = 2131230987;
+			public const int tabMode = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int tag_accessibility_clickable_spans = 2131230988;
+			public const int tag_accessibility_actions = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int tag_accessibility_heading = 2131230989;
+			public const int tag_accessibility_clickable_spans = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int tag_accessibility_pane_title = 2131230990;
+			public const int tag_accessibility_heading = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int tag_screen_reader_focusable = 2131230991;
+			public const int tag_accessibility_pane_title = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int tag_transition_group = 2131230992;
+			public const int tag_screen_reader_focusable = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int tag_unhandled_key_event_manager = 2131230993;
+			public const int tag_transition_group = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int tag_unhandled_key_listeners = 2131230994;
+			public const int tag_unhandled_key_event_manager = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int test_checkbox_android_button_tint = 2131230995;
+			public const int tag_unhandled_key_listeners = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int test_checkbox_app_button_tint = 2131230996;
+			public const int test_checkbox_android_button_tint = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int text = 2131230997;
+			public const int test_checkbox_app_button_tint = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int text2 = 2131230998;
+			public const int text = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int textEnd = 2131230999;
-			
-			// aapt resource value: 0x7F08011D
-			public const int textinput_counter = 2131231005;
-			
-			// aapt resource value: 0x7F08011E
-			public const int textinput_error = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int textinput_helper_text = 2131231007;
+			public const int text2 = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int textSpacerNoButtons = 2131231000;
+			public const int textEnd = 2131231000;
 			
-			// aapt resource value: 0x7F080119
-			public const int textSpacerNoTitle = 2131231001;
+			// aapt resource value: 0x7F08011E
+			public const int textinput_counter = 2131231006;
 			
-			// aapt resource value: 0x7F08011A
-			public const int textStart = 2131231002;
-			
-			// aapt resource value: 0x7F08011B
-			public const int text_input_end_icon = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int text_input_start_icon = 2131231004;
+			// aapt resource value: 0x7F08011F
+			public const int textinput_error = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int time = 2131231008;
+			public const int textinput_helper_text = 2131231008;
+			
+			// aapt resource value: 0x7F080119
+			public const int textSpacerNoButtons = 2131231001;
+			
+			// aapt resource value: 0x7F08011A
+			public const int textSpacerNoTitle = 2131231002;
+			
+			// aapt resource value: 0x7F08011B
+			public const int textStart = 2131231003;
+			
+			// aapt resource value: 0x7F08011C
+			public const int text_input_end_icon = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int text_input_start_icon = 2131231005;
 			
 			// aapt resource value: 0x7F080121
-			public const int title = 2131231009;
+			public const int time = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int titleDividerNoCustom = 2131231010;
+			public const int title = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int title_template = 2131231011;
+			public const int titleDividerNoCustom = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int toolbar = 2131231012;
+			public const int title_template = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int top = 2131231013;
+			public const int toolbar = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int topPanel = 2131231014;
+			public const int top = 2131231014;
+			
+			// aapt resource value: 0x7F080127
+			public const int topPanel = 2131231015;
 			
 			// aapt resource value: 0x7F080008
 			public const int TOP_END = 2131230728;
@@ -24325,56 +23534,56 @@ namespace NavigationForms.Droid
 			// aapt resource value: 0x7F080009
 			public const int TOP_START = 2131230729;
 			
-			// aapt resource value: 0x7F080127
-			public const int touch_outside = 2131231015;
-			
 			// aapt resource value: 0x7F080128
-			public const int transition_current_scene = 2131231016;
+			public const int touch_outside = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int transition_layout_save = 2131231017;
+			public const int transition_current_scene = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int transition_position = 2131231018;
+			public const int transition_layout_save = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int transition_scene_layoutid_cache = 2131231019;
+			public const int transition_position = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int transition_transform = 2131231020;
+			public const int transition_scene_layoutid_cache = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int @unchecked = 2131231021;
+			public const int transition_transform = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int uniform = 2131231022;
+			public const int @unchecked = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int unlabeled = 2131231023;
+			public const int uniform = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int up = 2131231024;
+			public const int unlabeled = 2131231024;
 			
 			// aapt resource value: 0x7F080131
-			public const int useLogo = 2131231025;
+			public const int up = 2131231025;
 			
 			// aapt resource value: 0x7F080132
-			public const int view_offset_helper = 2131231026;
+			public const int useLogo = 2131231026;
 			
 			// aapt resource value: 0x7F080133
-			public const int view_tree_saved_state_registry_owner = 2131231027;
+			public const int view_offset_helper = 2131231027;
 			
 			// aapt resource value: 0x7F080134
-			public const int visible = 2131231028;
+			public const int view_tree_saved_state_registry_owner = 2131231028;
 			
 			// aapt resource value: 0x7F080135
-			public const int visible_removing_fragment_view_tag = 2131231029;
+			public const int visible = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int withText = 2131231030;
+			public const int visible_removing_fragment_view_tag = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int wrap_content = 2131231031;
+			public const int withText = 2131231031;
+			
+			// aapt resource value: 0x7F080138
+			public const int wrap_content = 2131231032;
 			
 			static Id()
 			{
