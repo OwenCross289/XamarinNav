@@ -73,7 +73,7 @@
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Grid.ColumnSpan="2">
-                    <Slider MinimumTrackColor="#FF367E" MaximumTrackColor="#FF367E" ThumbColor="#FF367E" Minimum="0" Maximum="360" Value="{Binding RedValue}"/>
+                    <Slider MinimumTrackColor="#FF367E" MaximumTrackColor="#FF367E" ThumbColor="#FF367E" Minimum="0" Maximum="360" Value="{Binding RedValue}" HorizontalOptions="Fill"/>
                     <Slider MinimumTrackColor="#B3FE45" MaximumTrackColor="#B3FE45" ThumbColor="#B3FE45" Minimum="0" Maximum="360" Value="{Binding GreenValue}" />
                     <Slider MinimumTrackColor="#00D2D1" MaximumTrackColor="#00D2D1" ThumbColor="#00D2D1" Minimum="0" Maximum="360" Value="{Binding BlueValue}"/>
                 </StackLayout>

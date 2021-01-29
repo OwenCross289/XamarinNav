@@ -77,6 +77,11 @@ namespace NavigationForms.ViewModels
             get { return new Command(() => MediaElementNavigate()); }
         }
 
+        public ICommand NavigateToCollections
+        {
+            get { return new Command(() => CollectionsNavigate()); }
+        }
+
         public void DependencyServicesDemoNavigate()
         {
             CurrentView.OnNavigateAway();
@@ -138,6 +143,14 @@ namespace NavigationForms.ViewModels
             CurrentView.OnNavigateAway();
             CurrentView = NotFactory.GetMediaElementVM();
             CurrentViewTitle = "Video Demo";
+            CurrentView.OnNavigateTo();
+        }
+
+        public void CollectionsNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = NotFactory.GetCollectionsVM();
+            CurrentViewTitle = "Collections Demo";
             CurrentView.OnNavigateTo();
         }
 
