@@ -72,6 +72,11 @@ namespace NavigationForms.ViewModels
             get { return new Command(() => CustomRenderNavigate()); }
         }
 
+        public ICommand NavigateToMediaElement
+        {
+            get { return new Command(() => MediaElementNavigate()); }
+        }
+
         public void DependencyServicesDemoNavigate()
         {
             CurrentView.OnNavigateAway();
@@ -125,6 +130,14 @@ namespace NavigationForms.ViewModels
             CurrentView.OnNavigateAway();
             CurrentView = NotFactory.GetCustomRenderVM();
             CurrentViewTitle = "Custom Render Demo";
+            CurrentView.OnNavigateTo();
+        }
+
+        public void MediaElementNavigate()
+        {
+            CurrentView.OnNavigateAway();
+            CurrentView = NotFactory.GetMediaElementVM();
+            CurrentViewTitle = "Video Demo";
             CurrentView.OnNavigateTo();
         }
 
