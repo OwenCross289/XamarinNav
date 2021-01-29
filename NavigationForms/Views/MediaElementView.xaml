@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="NavigationForms.Views.MediaElementView">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Here is some info about the video that is currently playing."/>
+            <xct:MediaElement
+                Source="ms-appx:///Video1.mp4"
+                HeightRequest="400"
+                ShowsPlaybackControls="True"/>
+            <Label Text="Here is some more info about the video that is currently playing."/>
+        </StackLayout>
+    </ScrollView>
+</ContentView>

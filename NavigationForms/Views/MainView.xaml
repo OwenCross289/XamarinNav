@@ -13,6 +13,7 @@
         <views:DependencyServicesDemoView x:Key="DependencyServicesDemoView" />
         <views:DataVisualizerView x:Key="DataVisualizerView" />
         <views:CustomRendererView x:Key="CustomRenderView" />
+        <views:MediaElementView x:Key="MediaElementView"/>
     </ContentPage.Resources>
 
     <NavigationPage.TitleView>
@@ -79,6 +80,12 @@
                                  Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
                                  Value="CustomRenderViewModel">
                         <Setter Property="Content" Value="{StaticResource CustomRenderView}" />
+                    </DataTrigger>
+
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="MediaElementViewModel">
+                        <Setter Property="Content" Value="{StaticResource MediaElementView}" />
                     </DataTrigger>
                 </ContentView.Triggers>
             </ContentView>
@@ -193,6 +200,24 @@
                     <Button.ImageSource>
                         <FontImageSource FontFamily="Typicons"
                                          Glyph="{x:Static helper:Typicons.Glyph142}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+
+                <Button Command="{Binding NavigateToMediaElement}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="Media"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.Glyph253}"
                                          Color="Black"
                                          Size="Title"/>
                     </Button.ImageSource>

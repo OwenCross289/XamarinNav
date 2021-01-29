@@ -19,6 +19,8 @@ namespace NavigationForms.Model
 
         private CustomRenderViewModel CustomRender { get; set; }
 
+        private MediaElementViewModel MediaElement { get; set; }
+
         public TestingGroundFactory() { }
 
         public NotepadViewModel GetNotepadVM()
@@ -79,6 +81,16 @@ namespace NavigationForms.Model
             }
 
             return CustomRender;
+        }
+
+        public MediaElementViewModel GetMediaElementVM()
+        {
+            if (MediaElement == null)
+            {
+                MediaElement = new MediaElementViewModel();
+            }
+
+            return MediaElement;
         }
     }
 }

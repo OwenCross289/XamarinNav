@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
@@ -36,6 +36,7 @@
         <None Remove="Fonts\typicons.ttf" />
         <None Remove="Resources\42504-blocks.json" />
         <None Remove="Resources\42631-mechanical-engineering-setting.json" />
+        <None Remove="Videos\Video1.mp4" />
     </ItemGroup>
     <ItemGroup>
         <EmbeddedResource Include="Fonts\typicons.ttf" />

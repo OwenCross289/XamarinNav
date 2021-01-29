@@ -161,4 +161,7 @@
     <Folder Include="Services\" />
     <Folder Include="CustomRenders\" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Video1.mp4" />
+  </ItemGroup>
 </Project>
