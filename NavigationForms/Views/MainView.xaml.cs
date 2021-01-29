@@ -7,24 +7,28 @@ namespace NavigationForms.Views
 {
     public partial class MainView : ContentPage
     {
-		public MainView()
-			=> InitializeComponent();
+        public MainView()
+        {
+            InitializeComponent();
+        }
 
-		void OnLeftButtonClicked(object sender, EventArgs e)
-		{
-			if(SideMenuView.State == SideMenuState.LeftMenuShown)
+        void OnLeftButtonClicked(object sender, EventArgs e)
+        {
+            if (SideMenuView.State == SideMenuState.LeftMenuShown)
             {
-				SideMenuView.State = SideMenuState.MainViewShown;
+                SideMenuView.State = SideMenuState.MainViewShown;
 
-			}
+            }
             else
             {
-				SideMenuView.State = SideMenuState.LeftMenuShown;
-			}
-			
-		}
+                SideMenuView.State = SideMenuState.LeftMenuShown;
+            }
 
-		void CloseLeftMenu(object sender, EventArgs e)
-			=> SideMenuView.State = SideMenuState.MainViewShown;
-	}
+        }
+
+        void CloseLeftMenu(object sender, EventArgs e)
+        {
+            SideMenuView.State = SideMenuState.MainViewShown;
+        }
+    }
 }
