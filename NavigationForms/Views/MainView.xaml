@@ -13,7 +13,8 @@
         <views:DependencyServicesDemoView x:Key="DependencyServicesDemoView" />
         <views:DataVisualizerView x:Key="DataVisualizerView" />
         <views:CustomRendererView x:Key="CustomRenderView" />
-        <views:MediaElementView x:Key="MediaElementView"/>
+        <views:MediaElementView x:Key="MediaElementView" />
+        <views:CollectionsView x:Key="CollectionsView" />
     </ContentPage.Resources>
 
     <NavigationPage.TitleView>
@@ -39,7 +40,13 @@
         </Grid>
     </NavigationPage.TitleView>
 
-    <xct:SideMenuView x:Name="SideMenuView">
+    <xct:SideMenuView x:Name="SideMenuView" xct:SideMenuView.MenuGestureEnabled="False">
+        <xct:SideMenuView.MenuGestureEnabled>
+            <OnPlatform x:TypeArguments="x:Boolean">
+                <On Platform="Android, WinPhone">True</On>
+                <On Platform="iOS">True</On>
+            </OnPlatform>
+        </xct:SideMenuView.MenuGestureEnabled>
         <!-- MainView -->
         <StackLayout Orientation="Vertical" BackgroundColor="White">
 
@@ -81,11 +88,15 @@
                                  Value="CustomRenderViewModel">
                         <Setter Property="Content" Value="{StaticResource CustomRenderView}" />
                     </DataTrigger>
-
                     <DataTrigger TargetType="{x:Type ContentView}"
                                  Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
                                  Value="MediaElementViewModel">
                         <Setter Property="Content" Value="{StaticResource MediaElementView}" />
+                    </DataTrigger>
+                    <DataTrigger TargetType="{x:Type ContentView}"
+                                 Binding="{Binding Path=., Converter={StaticResource TypeNameConverter}}"
+                                 Value="CollectionsViewModel">
+                        <Setter Property="Content" Value="{StaticResource CollectionsView}" />
                     </DataTrigger>
                 </ContentView.Triggers>
             </ContentView>
@@ -96,6 +107,12 @@
             BackgroundColor="#bababa"
             xct:SideMenuView.Position="LeftMenu"
             xct:SideMenuView.MenuWidthPercentage=".5">
+            <xct:SideMenuView.MenuGestureEnabled>
+                <OnPlatform x:TypeArguments="x:Boolean">
+                    <On Platform="Android, WinPhone">False</On>
+                    <On Platform="iOS">True</On>
+                </OnPlatform>
+            </xct:SideMenuView.MenuGestureEnabled>
             <!-- Place navigation controls here -->
             <StackLayout>
                 <Button Command="{Binding NavigateToHome}"
@@ -218,6 +235,24 @@
                     <Button.ImageSource>
                         <FontImageSource FontFamily="Typicons"
                                          Glyph="{x:Static helper:Typicons.Glyph253}"
+                                         Color="Black"
+                                         Size="Title"/>
+                    </Button.ImageSource>
+                </Button>
+
+                <Button Command="{Binding NavigateToCollections}"
+                        Visual="Default"
+                        Margin="5,0,0,0"
+                        HorizontalOptions="StartAndExpand"
+                        BackgroundColor="Transparent"
+                        BorderColor="Transparent"
+                        Text="Media"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        Clicked="CloseLeftMenu">
+                    <Button.ImageSource>
+                        <FontImageSource FontFamily="Typicons"
+                                         Glyph="{x:Static helper:Typicons.Glyph255}"
                                          Color="Black"
                                          Size="Title"/>
                     </Button.ImageSource>

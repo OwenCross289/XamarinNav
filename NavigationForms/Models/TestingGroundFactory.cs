@@ -21,6 +21,8 @@ namespace NavigationForms.Model
 
         private MediaElementViewModel MediaElement { get; set; }
 
+        private CollectionsViewModel Collections { get; set; }
+
         public TestingGroundFactory() { }
 
         public NotepadViewModel GetNotepadVM()
@@ -91,6 +93,16 @@ namespace NavigationForms.Model
             }
 
             return MediaElement;
+        }
+
+        public CollectionsViewModel GetCollectionsVM()
+        {
+            if (Collections == null)
+            {
+                Collections = new CollectionsViewModel();
+            }
+
+            return Collections;
         }
     }
 }
