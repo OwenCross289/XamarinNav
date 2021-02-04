@@ -23,9 +23,8 @@ namespace NavigationForms.ViewModels
 
         public CollectionsViewModel()
         {
-
-
             Cars = new ObservableCollection<NavigationCollection>();
+            Task.Run(() => AddCars());
         }
 
         public void OnNavigateAway()
@@ -34,9 +33,7 @@ namespace NavigationForms.ViewModels
         }
 
         public void OnNavigateTo()
-        {
-            Task.Run(() => AddCars());
-        }
+        { }
 
         private void AddCars()
         {
